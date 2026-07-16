@@ -82,7 +82,7 @@
           "items": { "type": "string", "minLength": 1 },
           "uniqueItems": true
         },
-        "defaultReportingMode": { "enum": ["load", "reps"] },
+        "defaultReportingMode": { "enum": ["load", "reps", "duration", "distance", "calories"] },
         "unilateral": { "type": "boolean" }
       }
     }

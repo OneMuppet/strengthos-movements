@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://strengthos.app/schemas/strengthos-movement-catalog-v1.schema.json",
+  "title": "StrengthOS Movement Catalog v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "formatVersion", "revision", "equipment", "movements"],
+  "properties": {
+    "format": { "const": "strengthos.movement-catalog" },
+    "formatVersion": { "const": 1 },
+    "revision": { "type": "string", "minLength": 1 },
+    "equipment": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/equipment" }
+    },
+    "movements": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/movement" }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "equipment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 }
+      }
+    },
+    "movement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "category",
+        "equipment",
+        "movementPatterns",
+        "primaryMuscles",
+        "secondaryMuscles",
+        "aliases",
+        "defaultReportingMode",
+        "unilateral"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "category": {
+          "enum": ["warmup", "olympic", "strength", "accessory", "trunk", "carry", "sled", "mobility", "rehab", "conditioning", "recovery", "skill", "test"]
+        },
+        "equipment": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/id" },
+          "uniqueItems": true
+        },
+        "movementPatterns": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "primaryMuscles": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "secondaryMuscles": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "aliases": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "defaultReportingMode": { "enum": ["load", "reps"] },
+        "unilateral": { "type": "boolean" }
+      }
+    }
+  }
+}

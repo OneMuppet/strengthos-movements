@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://strengthos.app/schemas/strengthos-movement-catalog-v2.schema.json",
+  "title": "StrengthOS Movement Catalog v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "formatVersion", "revision", "equipment", "movements"],
+  "properties": {
+    "format": { "const": "strengthos.movement-catalog" },
+    "formatVersion": { "const": 2 },
+    "revision": { "type": "string", "minLength": 1 },
+    "equipment": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/equipment" }
+    },
+    "movements": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/movement" }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "reportingField": {
+      "enum": ["load", "reps", "duration", "distance", "calories", "height", "rpe"]
+    },
+    "equipment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 }
+      }
+    },
+    "equipmentOption": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/id" }
+    },
+    "reporting": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primaryField", "requiredFields", "optionalFields", "progressMetric"],
+      "properties": {
+        "primaryField": { "$ref": "#/$defs/reportingField" },
+        "requiredFields": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/reportingField" }
+        },
+        "optionalFields": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/reportingField" }
+        },
+        "progressMetric": {
+          "enum": [
+            "bestLoad",
+            "estimatedOneRepMax",
+            "totalReps",
+            "totalDuration",
+            "totalDistance",
+            "totalCalories",
+            "bestHeight",
+            "averageRPE"
+          ]
+        }
+      }
+    },
+    "relationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "movementId"],
+      "properties": {
+        "type": { "enum": ["variation", "progression", "regression", "alternative"] },
+        "movementId": { "$ref": "#/$defs/id" }
+      }
+    },
+    "movement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "category",
+        "equipmentOptions",
+        "movementPatterns",
+        "primaryMuscles",
+        "secondaryMuscles",
+        "aliases",
+        "reporting",
+        "unilateral",
+        "difficulty",
+        "familyId",
+        "instructions",
+        "coachingCues",
+        "relationships",
+        "status"
+      ],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "name": { "type": "string", "minLength": 1 },
+        "category": {
+          "enum": ["warmup", "olympic", "strength", "accessory", "trunk", "carry", "sled", "mobility", "rehab", "conditioning", "recovery", "skill", "test"]
+        },
+        "equipmentOptions": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/equipmentOption" }
+        },
+        "movementPatterns": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "primaryMuscles": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "secondaryMuscles": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "aliases": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "reporting": { "$ref": "#/$defs/reporting" },
+        "unilateral": { "type": "boolean" },
+        "difficulty": { "enum": ["beginner", "intermediate", "advanced"] },
+        "familyId": { "$ref": "#/$defs/id" },
+        "instructions": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "coachingCues": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "relationships": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/relationship" }
+        },
+        "status": { "enum": ["active", "deprecated"] },
+        "replacedBy": { "$ref": "#/$defs/id" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "status": { "const": "deprecated" } } },
+          "then": { "required": ["replacedBy"] }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8375 @@
+{
+  "format": "strengthos.movement-catalog",
+  "formatVersion": 2,
+  "revision": "2026-07-17",
+  "equipment": [
+    {
+      "id": "none",
+      "name": "No equipment"
+    },
+    {
+      "id": "barbell",
+      "name": "Barbell"
+    },
+    {
+      "id": "plates",
+      "name": "Weight plates"
+    },
+    {
+      "id": "squat-rack",
+      "name": "Squat rack"
+    },
+    {
+      "id": "bench",
+      "name": "Bench"
+    },
+    {
+      "id": "dumbbell",
+      "name": "Dumbbells"
+    },
+    {
+      "id": "kettlebell",
+      "name": "Kettlebells"
+    },
+    {
+      "id": "pull-up-bar",
+      "name": "Pull-up bar"
+    },
+    {
+      "id": "rings",
+      "name": "Gymnastic rings"
+    },
+    {
+      "id": "dip-bars",
+      "name": "Dip bars"
+    },
+    {
+      "id": "parallettes",
+      "name": "Parallettes"
+    },
+    {
+      "id": "resistance-band",
+      "name": "Resistance band"
+    },
+    {
+      "id": "cable-machine",
+      "name": "Cable machine"
+    },
+    {
+      "id": "machine",
+      "name": "Strength machine"
+    },
+    {
+      "id": "ghd",
+      "name": "GHD"
+    },
+    {
+      "id": "plyo-box",
+      "name": "Plyo box"
+    },
+    {
+      "id": "sled",
+      "name": "Sled"
+    },
+    {
+      "id": "climbing-rope",
+      "name": "Climbing rope"
+    },
+    {
+      "id": "medicine-ball",
+      "name": "Medicine ball"
+    },
+    {
+      "id": "landmine",
+      "name": "Landmine attachment"
+    },
+    {
+      "id": "rower",
+      "name": "Rowing ergometer"
+    },
+    {
+      "id": "assault-bike",
+      "name": "Air bike"
+    },
+    {
+      "id": "ski-erg",
+      "name": "SkiErg"
+    },
+    {
+      "id": "jump-rope",
+      "name": "Jump rope"
+    },
+    {
+      "id": "ab-wheel",
+      "name": "Ab wheel"
+    },
+    {
+      "id": "trap-bar",
+      "name": "Trap bar"
+    },
+    {
+      "id": "sandbag",
+      "name": "Sandbag"
+    },
+    {
+      "id": "yoke",
+      "name": "Yoke"
+    },
+    {
+      "id": "battle-ropes",
+      "name": "Battle ropes"
+    },
+    {
+      "id": "weight-belt",
+      "name": "Weight belt"
+    },
+    {
+      "id": "leg-press-machine",
+      "name": "Leg press machine"
+    },
+    {
+      "id": "leg-extension-machine",
+      "name": "Leg extension machine"
+    },
+    {
+      "id": "leg-curl-machine",
+      "name": "Leg curl machine"
+    },
+    {
+      "id": "wall",
+      "name": "Wall"
+    },
+    {
+      "id": "lat-pulldown-machine",
+      "name": "Lat pulldown machine"
+    },
+    {
+      "id": "seated-row-machine",
+      "name": "Seated row machine"
+    }
+  ],
+  "movements": [
+    {
+      "id": "back-squat",
+      "name": "Back Squat",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk"
+      ],
+      "aliases": [
+        "Barbell Back Squat"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "estimatedOneRepMax"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "front-squat",
+      "name": "Front Squat",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "upper-back",
+        "trunk"
+      ],
+      "aliases": [
+        "Barbell Front Squat"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "estimatedOneRepMax"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "overhead-squat",
+      "name": "Overhead Squat",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "squat",
+        "overhead"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "upper-back",
+        "trunk"
+      ],
+      "aliases": [
+        "OHS"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "zercher-squat",
+      "name": "Zercher Squat",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "upper-back",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "box-squat",
+      "name": "Box Squat",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack",
+          "plyo-box"
+        ]
+      ],
+      "movementPatterns": [
+        "squat"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "quadriceps"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "pause-squat",
+      "name": "Pause Squat",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk"
+      ],
+      "aliases": [
+        "Paused Back Squat"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "tempo-squat",
+      "name": "Tempo Squat",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "goblet-squat",
+      "name": "Goblet Squat",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ],
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "split-squat",
+      "name": "Split Squat",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "none"
+        ],
+        [
+          "dumbbell"
+        ],
+        [
+          "kettlebell"
+        ],
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "lunge",
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "bulgarian-split-squat",
+      "name": "Bulgarian Split Squat",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "bench"
+        ],
+        [
+          "dumbbell",
+          "bench"
+        ],
+        [
+          "barbell",
+          "plates",
+          "squat-rack",
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "lunge",
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk"
+      ],
+      "aliases": [
+        "Rear-Foot-Elevated Split Squat",
+        "RFESS"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "step-up",
+      "name": "Step-up",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "plyo-box"
+        ],
+        [
+          "plyo-box",
+          "dumbbell"
+        ],
+        [
+          "plyo-box",
+          "kettlebell"
+        ],
+        [
+          "plyo-box",
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "step",
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "calves"
+      ],
+      "aliases": [
+        "Box Step-up"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "single-leg-squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "reverse-lunge",
+      "name": "Reverse Lunge",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "none"
+        ],
+        [
+          "dumbbell"
+        ],
+        [
+          "kettlebell"
+        ],
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "lunge"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "single-leg-squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "walking-lunge",
+      "name": "Walking Lunge",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "none"
+        ],
+        [
+          "dumbbell"
+        ],
+        [
+          "kettlebell"
+        ],
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "lunge"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "calves"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "single-leg-squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "lateral-lunge",
+      "name": "Lateral Lunge",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "none"
+        ],
+        [
+          "dumbbell"
+        ],
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "lunge",
+        "lateral"
+      ],
+      "primaryMuscles": [
+        "adductors",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "hamstrings"
+      ],
+      "aliases": [
+        "Side Lunge"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "single-leg-squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "deadlift",
+      "name": "Deadlift",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "hamstrings",
+        "back"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "forearms",
+        "trunk"
+      ],
+      "aliases": [
+        "Conventional Deadlift"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "estimatedOneRepMax"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "sumo-deadlift",
+      "name": "Sumo Deadlift",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "quadriceps",
+        "adductors"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "back",
+        "forearms"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "estimatedOneRepMax"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "trap-bar-deadlift",
+      "name": "Trap-Bar Deadlift",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "trap-bar",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "back",
+        "forearms"
+      ],
+      "aliases": [
+        "Hex-Bar Deadlift"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "estimatedOneRepMax"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "romanian-deadlift",
+      "name": "Romanian Deadlift",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "back",
+        "forearms"
+      ],
+      "aliases": [
+        "RDL"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "stiff-leg-deadlift",
+      "name": "Stiff-Leg Deadlift",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "back"
+      ],
+      "aliases": [
+        "Straight-Leg Deadlift"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "deficit-deadlift",
+      "name": "Deficit Deadlift",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "hamstrings",
+        "quadriceps"
+      ],
+      "secondaryMuscles": [
+        "back",
+        "forearms"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "rack-pull",
+      "name": "Rack Pull",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "back",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "forearms"
+      ],
+      "aliases": [
+        "Block Pull"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "rack-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "good-morning",
+      "name": "Good Morning",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "back",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "barbell-hip-thrust",
+      "name": "Barbell Hip Thrust",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "quadriceps"
+      ],
+      "aliases": [
+        "Hip Thrust"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "glute-bridge",
+      "name": "Glute Bridge",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "bench-press",
+      "name": "Bench Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "bench",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts",
+        "upper-back"
+      ],
+      "aliases": [
+        "Barbell Bench Press"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "estimatedOneRepMax"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [
+        {
+          "type": "variation",
+          "movementId": "paused-bench-press"
+        },
+        {
+          "type": "variation",
+          "movementId": "tempo-bench-press"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "close-grip-bench-press",
+      "name": "Close-Grip Bench Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "bench",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "triceps",
+        "chest"
+      ],
+      "secondaryMuscles": [
+        "front-delts"
+      ],
+      "aliases": [
+        "Close-Grip Bench"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "estimatedOneRepMax"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "incline-barbell-bench-press",
+      "name": "Incline Barbell Bench Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "bench",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "upper-chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts"
+      ],
+      "aliases": [
+        "Incline Bench Press"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "decline-bench-press",
+      "name": "Decline Bench Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "floor-press",
+      "name": "Floor Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "triceps",
+        "chest"
+      ],
+      "secondaryMuscles": [
+        "front-delts"
+      ],
+      "aliases": [
+        "Barbell Floor Press"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "strict-press",
+      "name": "Strict Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-push"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "upper-chest",
+        "trunk"
+      ],
+      "aliases": [
+        "Overhead Press",
+        "Military Press",
+        "OHP"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "estimatedOneRepMax"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "vertical-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "push-press",
+      "name": "Push Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-push",
+        "power"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "glutes",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "vertical-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "landmine-press",
+      "name": "Landmine Press",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "landmine"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-push"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "upper-chest"
+      ],
+      "secondaryMuscles": [
+        "triceps",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "vertical-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "barbell-row",
+      "name": "Barbell Row",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-pull"
+      ],
+      "primaryMuscles": [
+        "upper-back",
+        "lats"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "hamstrings",
+        "trunk"
+      ],
+      "aliases": [
+        "Bent-Over Row"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "pendlay-row",
+      "name": "Pendlay Row",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-pull"
+      ],
+      "primaryMuscles": [
+        "upper-back",
+        "lats"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "seal-row",
+      "name": "Seal Row",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-pull"
+      ],
+      "primaryMuscles": [
+        "upper-back",
+        "lats"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "rear-delts"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "barbell-curl",
+      "name": "Barbell Curl",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "elbow-flexion"
+      ],
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "barbell-curl",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "skull-crusher",
+      "name": "Skull Crusher",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "elbow-extension"
+      ],
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "secondaryMuscles": [],
+      "aliases": [
+        "Lying Triceps Extension"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "skull-crusher",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "clean",
+      "name": "Clean",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "power"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes",
+        "traps"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "shoulders",
+        "trunk"
+      ],
+      "aliases": [
+        "Squat Clean"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "clean",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "power-clean",
+      "name": "Power Clean",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "power"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "quadriceps",
+        "traps"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "shoulders",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "clean",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "hang-clean",
+      "name": "Hang Clean",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "power"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "quadriceps",
+        "traps"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "shoulders"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "clean",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "hang-power-clean",
+      "name": "Hang Power Clean",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "power"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "quadriceps",
+        "traps"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "shoulders"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "clean",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "clean-pull",
+      "name": "Clean Pull",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-pull",
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "quadriceps",
+        "traps"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "back"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "clean",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "clean-high-pull",
+      "name": "Clean High Pull",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-pull",
+        "power"
+      ],
+      "primaryMuscles": [
+        "traps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "shoulders"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "clean",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "clean-deadlift",
+      "name": "Clean Deadlift",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-pull",
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "quadriceps",
+        "back"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "traps"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "muscle-clean",
+      "name": "Muscle Clean",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "skill"
+      ],
+      "primaryMuscles": [
+        "traps",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "biceps"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "clean",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "snatch",
+      "name": "Snatch",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "power",
+        "overhead"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "quadriceps",
+        "traps"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "shoulders",
+        "trunk"
+      ],
+      "aliases": [
+        "Squat Snatch"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "snatch",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "power-snatch",
+      "name": "Power Snatch",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "power",
+        "overhead"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "quadriceps",
+        "traps"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "shoulders",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "snatch",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "hang-snatch",
+      "name": "Hang Snatch",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "power",
+        "overhead"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "traps",
+        "quadriceps"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "snatch",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "hang-power-snatch",
+      "name": "Hang Power Snatch",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "power",
+        "overhead"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "traps",
+        "quadriceps"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "snatch",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "snatch-pull",
+      "name": "Snatch Pull",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-pull",
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "quadriceps",
+        "traps"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "back"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "snatch",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "snatch-balance",
+      "name": "Snatch Balance",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "overhead",
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "upper-back",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "snatch",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "split-jerk",
+      "name": "Split Jerk",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "vertical-push",
+        "power"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "shoulders",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "trunk"
+      ],
+      "aliases": [
+        "Jerk"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "jerk",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "push-jerk",
+      "name": "Push Jerk",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "vertical-push",
+        "power"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "shoulders",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "jerk",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "power-jerk",
+      "name": "Power Jerk",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "vertical-push",
+        "power"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "shoulders",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "jerk",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "jerk-dip",
+      "name": "Jerk Dip",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "olympic-lift",
+        "skill"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "trunk"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "shoulders"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "jerk",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "dumbbell-bench-press",
+      "name": "Dumbbell Bench Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "dumbbell",
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts"
+      ],
+      "aliases": [
+        "DB Bench Press"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "incline-dumbbell-bench-press",
+      "name": "Incline Dumbbell Bench Press",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell",
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "upper-chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts"
+      ],
+      "aliases": [
+        "Incline DB Bench"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "single-arm-dumbbell-bench-press",
+      "name": "Single-Arm Dumbbell Bench Press",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell",
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push",
+        "anti-rotation"
+      ],
+      "primaryMuscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "dumbbell-floor-press",
+      "name": "Dumbbell Floor Press",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "triceps",
+        "chest"
+      ],
+      "secondaryMuscles": [
+        "front-delts"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "seated-dumbbell-press",
+      "name": "Seated Dumbbell Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "dumbbell",
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-push"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "upper-chest"
+      ],
+      "aliases": [
+        "DB Shoulder Press"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "vertical-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "single-arm-dumbbell-press",
+      "name": "Single-Arm Dumbbell Press",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-push",
+        "anti-lateral-flexion"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "trunk"
+      ],
+      "aliases": [
+        "One-Arm DB Press"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "vertical-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "arnold-press",
+      "name": "Arnold Press",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell",
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-push"
+      ],
+      "primaryMuscles": [
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "triceps",
+        "upper-chest"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "vertical-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "one-arm-dumbbell-row",
+      "name": "One-Arm Dumbbell Row",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell",
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-pull"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "upper-back"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "rear-delts"
+      ],
+      "aliases": [
+        "One-Arm DB Row"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "chest-supported-dumbbell-row",
+      "name": "Chest-Supported Dumbbell Row",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell",
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-pull"
+      ],
+      "primaryMuscles": [
+        "upper-back",
+        "lats"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "rear-delts"
+      ],
+      "aliases": [
+        "Chest-Supported Row"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "renegade-row",
+      "name": "Renegade Row",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-pull",
+        "anti-rotation"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "trunk"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "shoulders"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "dumbbell-romanian-deadlift",
+      "name": "Dumbbell Romanian Deadlift",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "back",
+        "forearms"
+      ],
+      "aliases": [
+        "DB RDL"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "single-leg-romanian-deadlift",
+      "name": "Single-Leg Romanian Deadlift",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "none"
+        ],
+        [
+          "dumbbell"
+        ],
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge",
+        "balance"
+      ],
+      "primaryMuscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "trunk",
+        "foot"
+      ],
+      "aliases": [
+        "Single-Leg RDL"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "dumbbell-lateral-raise",
+      "name": "Dumbbell Lateral Raise",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "shoulder-abduction"
+      ],
+      "primaryMuscles": [
+        "side-delts"
+      ],
+      "secondaryMuscles": [
+        "traps"
+      ],
+      "aliases": [
+        "DB Lateral Raise"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "dumbbell-lateral-raise",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "rear-delt-raise",
+      "name": "Rear-Delt Raise",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-abduction"
+      ],
+      "primaryMuscles": [
+        "rear-delts"
+      ],
+      "secondaryMuscles": [
+        "upper-back"
+      ],
+      "aliases": [
+        "Reverse Fly"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "rear-delt-raise",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "dumbbell-front-raise",
+      "name": "Dumbbell Front Raise",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "shoulder-flexion"
+      ],
+      "primaryMuscles": [
+        "front-delts"
+      ],
+      "secondaryMuscles": [
+        "upper-chest"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "dumbbell-front-raise",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "dumbbell-curl",
+      "name": "Dumbbell Curl",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "elbow-flexion"
+      ],
+      "primaryMuscles": [
+        "biceps"
+      ],
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "aliases": [
+        "DB Curl"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "dumbbell-curl",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "hammer-curl",
+      "name": "Hammer Curl",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "elbow-flexion"
+      ],
+      "primaryMuscles": [
+        "brachialis",
+        "biceps"
+      ],
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hammer-curl",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "dumbbell-triceps-extension",
+      "name": "Dumbbell Triceps Extension",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "elbow-extension"
+      ],
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "secondaryMuscles": [],
+      "aliases": [
+        "Overhead Triceps Extension"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "dumbbell-triceps-extension",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "kettlebell-swing",
+      "name": "Kettlebell Swing",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge",
+        "power"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "back",
+        "forearms",
+        "trunk"
+      ],
+      "aliases": [
+        "Russian Kettlebell Swing"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "kettlebell-swing",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "american-kettlebell-swing",
+      "name": "American Kettlebell Swing",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge",
+        "power",
+        "overhead"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "back",
+        "trunk"
+      ],
+      "aliases": [
+        "American Swing"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "american-kettlebell-swing",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "double-kettlebell-front-squat",
+      "name": "Double-Kettlebell Front Squat",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "upper-back",
+        "trunk"
+      ],
+      "aliases": [
+        "Double KB Front Squat"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "kettlebell-deadlift",
+      "name": "Kettlebell Deadlift",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "back"
+      ],
+      "aliases": [
+        "KB Deadlift"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hinge",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "kettlebell-clean",
+      "name": "Kettlebell Clean",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge",
+        "power"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "forearms"
+      ],
+      "aliases": [
+        "KB Clean"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "advanced",
+      "familyId": "clean",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "kettlebell-snatch",
+      "name": "Kettlebell Snatch",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge",
+        "power",
+        "overhead"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk",
+        "forearms"
+      ],
+      "aliases": [
+        "KB Snatch"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "advanced",
+      "familyId": "snatch",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "kettlebell-press",
+      "name": "Kettlebell Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-push"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "trunk",
+        "forearms"
+      ],
+      "aliases": [
+        "KB Press"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "kettlebell-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "turkish-get-up",
+      "name": "Turkish Get-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "kettlebell"
+        ],
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "get-up",
+        "overhead",
+        "trunk"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "trunk",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "triceps"
+      ],
+      "aliases": [
+        "TGU"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "turkish-get-up",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "bottom-up-kettlebell-carry",
+      "name": "Bottom-Up Kettlebell Carry",
+      "category": "carry",
+      "equipmentOptions": [
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "carry",
+        "shoulder-stability"
+      ],
+      "primaryMuscles": [
+        "forearms",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "trunk"
+      ],
+      "aliases": [
+        "Bottom-Up KB Carry"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "carry",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "kettlebell-windmill",
+      "name": "Kettlebell Windmill",
+      "category": "mobility",
+      "equipmentOptions": [
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge",
+        "rotation",
+        "overhead"
+      ],
+      "primaryMuscles": [
+        "trunk",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "aliases": [
+        "KB Windmill"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "kettlebell-windmill",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "air-squat",
+      "name": "Air Squat",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk"
+      ],
+      "aliases": [
+        "Bodyweight Squat"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "pistol-squat",
+      "name": "Pistol Squat",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "squat",
+        "balance"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk",
+        "foot"
+      ],
+      "aliases": [
+        "Single-Leg Squat"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": true,
+      "difficulty": "advanced",
+      "familyId": "squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "push-up",
+      "name": "Push-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts",
+        "trunk"
+      ],
+      "aliases": [
+        "Pushup"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [
+        {
+          "type": "regression",
+          "movementId": "incline-push-up"
+        },
+        {
+          "type": "regression",
+          "movementId": "knee-push-up"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "hand-release-push-up",
+      "name": "Hand-Release Push-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts",
+        "upper-back",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "decline-push-up",
+      "name": "Decline Push-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "plyo-box"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "upper-chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "pike-push-up",
+      "name": "Pike Push-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-push"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "upper-chest",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "handstand-push-up",
+      "name": "Handstand Push-up",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-push",
+        "inversion"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "upper-chest",
+        "trunk"
+      ],
+      "aliases": [
+        "HSPU"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "horizontal-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "pull-up",
+      "name": "Pull-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "pull-up-bar"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-pull"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "upper-back"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "forearms",
+        "trunk"
+      ],
+      "aliases": [
+        "Strict Pull-up"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "vertical-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [
+        {
+          "type": "regression",
+          "movementId": "assisted-pull-up"
+        },
+        {
+          "type": "regression",
+          "movementId": "eccentric-pull-up"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "chin-up",
+      "name": "Chin-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "pull-up-bar"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-pull"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "biceps"
+      ],
+      "secondaryMuscles": [
+        "upper-back",
+        "forearms"
+      ],
+      "aliases": [
+        "Chinup"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "vertical-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [
+        {
+          "type": "progression",
+          "movementId": "weighted-chin-up"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "weighted-pull-up",
+      "name": "Weighted Pull-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "pull-up-bar",
+          "dumbbell"
+        ],
+        [
+          "pull-up-bar",
+          "kettlebell"
+        ],
+        [
+          "pull-up-bar",
+          "weight-belt",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-pull"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "upper-back"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "forearms",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "estimatedOneRepMax"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "vertical-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "chest-to-bar-pull-up",
+      "name": "Chest-to-Bar Pull-up",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "pull-up-bar"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-pull",
+        "gymnastics"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "upper-back"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "forearms",
+        "trunk"
+      ],
+      "aliases": [
+        "C2B Pull-up"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "vertical-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "ring-row",
+      "name": "Ring Row",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "rings"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-pull"
+      ],
+      "primaryMuscles": [
+        "upper-back",
+        "lats"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "rear-delts",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "horizontal-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "inverted-row",
+      "name": "Inverted Row",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-pull"
+      ],
+      "primaryMuscles": [
+        "upper-back",
+        "lats"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "rear-delts",
+        "trunk"
+      ],
+      "aliases": [
+        "Body Row"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "bar-dip",
+      "name": "Bar Dip",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "dip-bars"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-push"
+      ],
+      "primaryMuscles": [
+        "triceps",
+        "chest"
+      ],
+      "secondaryMuscles": [
+        "front-delts"
+      ],
+      "aliases": [
+        "Dip"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "bar-dip",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "ring-dip",
+      "name": "Ring Dip",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "rings"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-push",
+        "gymnastics"
+      ],
+      "primaryMuscles": [
+        "triceps",
+        "chest"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "ring-dip",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "bar-muscle-up",
+      "name": "Bar Muscle-up",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "pull-up-bar"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-pull",
+        "vertical-push",
+        "gymnastics"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "chest",
+        "trunk"
+      ],
+      "aliases": [
+        "BMU"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "vertical-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "ring-muscle-up",
+      "name": "Ring Muscle-up",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "rings"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-pull",
+        "vertical-push",
+        "gymnastics"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "chest",
+        "trunk"
+      ],
+      "aliases": [
+        "RMU"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "vertical-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "rope-climb",
+      "name": "Rope Climb",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "climbing-rope"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-pull",
+        "climb"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "biceps",
+        "forearms"
+      ],
+      "secondaryMuscles": [
+        "legs",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "vertical-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "legless-rope-climb",
+      "name": "Legless Rope Climb",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "climbing-rope"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-pull",
+        "climb"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "biceps",
+        "forearms"
+      ],
+      "secondaryMuscles": [
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "vertical-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "toes-to-bar",
+      "name": "Toes-to-Bar",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "pull-up-bar"
+        ]
+      ],
+      "movementPatterns": [
+        "trunk-flexion",
+        "gymnastics"
+      ],
+      "primaryMuscles": [
+        "abdominals",
+        "hip-flexors"
+      ],
+      "secondaryMuscles": [
+        "lats",
+        "forearms"
+      ],
+      "aliases": [
+        "TTB"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "toes-to-bar",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "hanging-knee-raise",
+      "name": "Hanging Knee Raise",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "pull-up-bar"
+        ]
+      ],
+      "movementPatterns": [
+        "trunk-flexion"
+      ],
+      "primaryMuscles": [
+        "abdominals",
+        "hip-flexors"
+      ],
+      "secondaryMuscles": [
+        "lats",
+        "forearms"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hanging-knee-raise",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "sit-up",
+      "name": "Sit-up",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "trunk-flexion"
+      ],
+      "primaryMuscles": [
+        "abdominals"
+      ],
+      "secondaryMuscles": [
+        "hip-flexors"
+      ],
+      "aliases": [
+        "AbMat Sit-up"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "sit-up",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "ghd-sit-up",
+      "name": "GHD Sit-up",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "ghd"
+        ]
+      ],
+      "movementPatterns": [
+        "trunk-flexion"
+      ],
+      "primaryMuscles": [
+        "abdominals",
+        "hip-flexors"
+      ],
+      "secondaryMuscles": [
+        "quadriceps"
+      ],
+      "aliases": [
+        "GHD Situp"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "ghd-sit-up",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "ghd-back-extension",
+      "name": "GHD Back Extension",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "ghd"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "back",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings"
+      ],
+      "aliases": [
+        "Back Extension"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "ghd-back-extension",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "ghd-hip-extension",
+      "name": "GHD Hip Extension",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "ghd"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "back"
+      ],
+      "aliases": [
+        "Hip Extension"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "ghd-hip-extension",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "plank",
+      "name": "Plank",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "anti-extension"
+      ],
+      "primaryMuscles": [
+        "abdominals"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "glutes"
+      ],
+      "aliases": [
+        "Front Plank"
+      ],
+      "reporting": {
+        "primaryField": "duration",
+        "requiredFields": [
+          "duration"
+        ],
+        "optionalFields": [
+          "distance",
+          "rpe"
+        ],
+        "progressMetric": "totalDuration"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "plank",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "side-plank",
+      "name": "Side Plank",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "anti-lateral-flexion"
+      ],
+      "primaryMuscles": [
+        "obliques"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "glutes"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "duration",
+        "requiredFields": [
+          "duration"
+        ],
+        "optionalFields": [
+          "distance",
+          "rpe"
+        ],
+        "progressMetric": "totalDuration"
+      },
+      "unilateral": true,
+      "difficulty": "beginner",
+      "familyId": "side-plank",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "hollow-hold",
+      "name": "Hollow Hold",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "anti-extension",
+        "gymnastics"
+      ],
+      "primaryMuscles": [
+        "abdominals"
+      ],
+      "secondaryMuscles": [
+        "hip-flexors"
+      ],
+      "aliases": [
+        "Hollow Body Hold"
+      ],
+      "reporting": {
+        "primaryField": "duration",
+        "requiredFields": [
+          "duration"
+        ],
+        "optionalFields": [
+          "distance",
+          "rpe"
+        ],
+        "progressMetric": "totalDuration"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "hollow-hold",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "arch-hold",
+      "name": "Arch Hold",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "trunk-extension",
+        "gymnastics"
+      ],
+      "primaryMuscles": [
+        "back",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "shoulders"
+      ],
+      "aliases": [
+        "Superman Hold"
+      ],
+      "reporting": {
+        "primaryField": "duration",
+        "requiredFields": [
+          "duration"
+        ],
+        "optionalFields": [
+          "distance",
+          "rpe"
+        ],
+        "progressMetric": "totalDuration"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "arch-hold",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "ab-wheel-rollout",
+      "name": "Ab Wheel Rollout",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "ab-wheel"
+        ]
+      ],
+      "movementPatterns": [
+        "anti-extension"
+      ],
+      "primaryMuscles": [
+        "abdominals"
+      ],
+      "secondaryMuscles": [
+        "lats",
+        "shoulders",
+        "triceps"
+      ],
+      "aliases": [
+        "Ab Wheel"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "ab-wheel-rollout",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "burpee",
+      "name": "Burpee",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "full-body",
+        "conditioning"
+      ],
+      "primaryMuscles": [
+        "full-body"
+      ],
+      "secondaryMuscles": [],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "burpee",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "box-jump",
+      "name": "Box Jump",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "plyo-box"
+        ]
+      ],
+      "movementPatterns": [
+        "jump",
+        "power"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes",
+        "calves"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "height",
+          "rpe"
+        ],
+        "progressMetric": "bestHeight"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "box-jump",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [
+        {
+          "type": "variation",
+          "movementId": "box-jump-over"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "broad-jump",
+      "name": "Broad Jump",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "jump",
+        "power"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "quadriceps",
+        "calves"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk"
+      ],
+      "aliases": [
+        "Standing Long Jump"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "distance",
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "broad-jump",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "standing-calf-raise",
+      "name": "Standing Calf Raise",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "plantar-flexion"
+      ],
+      "primaryMuscles": [
+        "calves"
+      ],
+      "secondaryMuscles": [],
+      "aliases": [
+        "Calf Raise"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "standing-calf-raise",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "band-face-pull",
+      "name": "Band Face Pull",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "resistance-band"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-pull",
+        "external-rotation"
+      ],
+      "primaryMuscles": [
+        "rear-delts",
+        "upper-back"
+      ],
+      "secondaryMuscles": [
+        "rotator-cuff"
+      ],
+      "aliases": [
+        "Face Pull"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "band-face-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "band-external-rotation",
+      "name": "Band External Rotation",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "resistance-band"
+        ]
+      ],
+      "movementPatterns": [
+        "external-rotation"
+      ],
+      "primaryMuscles": [
+        "rotator-cuff"
+      ],
+      "secondaryMuscles": [
+        "rear-delts"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": true,
+      "difficulty": "beginner",
+      "familyId": "band-external-rotation",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "band-internal-rotation",
+      "name": "Band Internal Rotation",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "resistance-band"
+        ]
+      ],
+      "movementPatterns": [
+        "internal-rotation"
+      ],
+      "primaryMuscles": [
+        "rotator-cuff"
+      ],
+      "secondaryMuscles": [
+        "chest",
+        "lats"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": true,
+      "difficulty": "beginner",
+      "familyId": "band-internal-rotation",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "band-pull-apart",
+      "name": "Band Pull-Apart",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "resistance-band"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-abduction"
+      ],
+      "primaryMuscles": [
+        "rear-delts",
+        "upper-back"
+      ],
+      "secondaryMuscles": [
+        "rotator-cuff"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "band-pull-apart",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "scapular-pull-up",
+      "name": "Scapular Pull-up",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "pull-up-bar"
+        ]
+      ],
+      "movementPatterns": [
+        "scapular-depression"
+      ],
+      "primaryMuscles": [
+        "lower-traps",
+        "lats"
+      ],
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "aliases": [
+        "Scap Pull-up"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "vertical-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [
+        {
+          "type": "regression",
+          "movementId": "dead-hang"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "wall-slide",
+      "name": "Wall Slide",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "scapular-upward-rotation"
+      ],
+      "primaryMuscles": [
+        "serratus",
+        "lower-traps"
+      ],
+      "secondaryMuscles": [
+        "rotator-cuff"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "wall-slide",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "serratus-punch",
+      "name": "Serratus Punch",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "resistance-band"
+        ]
+      ],
+      "movementPatterns": [
+        "scapular-protraction"
+      ],
+      "primaryMuscles": [
+        "serratus"
+      ],
+      "secondaryMuscles": [
+        "chest"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": true,
+      "difficulty": "beginner",
+      "familyId": "serratus-punch",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "prone-ytw",
+      "name": "Prone Y-T-W",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "scapular-control"
+      ],
+      "primaryMuscles": [
+        "lower-traps",
+        "rear-delts"
+      ],
+      "secondaryMuscles": [
+        "rotator-cuff"
+      ],
+      "aliases": [
+        "YTWL"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "prone-ytw",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "peterson-step-up",
+      "name": "Peterson Step-up",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "plyo-box"
+        ]
+      ],
+      "movementPatterns": [
+        "step",
+        "knee-extension"
+      ],
+      "primaryMuscles": [
+        "quadriceps"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "calves"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": true,
+      "difficulty": "beginner",
+      "familyId": "single-leg-squat",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "tibialis-raise",
+      "name": "Tibialis Raise",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "dorsiflexion"
+      ],
+      "primaryMuscles": [
+        "tibialis-anterior"
+      ],
+      "secondaryMuscles": [],
+      "aliases": [
+        "Tib Raise"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "tibialis-raise",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "band-terminal-knee-extension",
+      "name": "Band Terminal Knee Extension",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "resistance-band"
+        ]
+      ],
+      "movementPatterns": [
+        "knee-extension"
+      ],
+      "primaryMuscles": [
+        "quadriceps"
+      ],
+      "secondaryMuscles": [],
+      "aliases": [
+        "TKE"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": true,
+      "difficulty": "beginner",
+      "familyId": "band-terminal-knee-extension",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "nordic-hamstring-curl",
+      "name": "Nordic Hamstring Curl",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "knee-flexion"
+      ],
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "calves"
+      ],
+      "aliases": [
+        "Nordic Curl"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "nordic-hamstring-curl",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "ghd-glute-ham-raise",
+      "name": "GHD Glute-Ham Raise",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "ghd"
+        ]
+      ],
+      "movementPatterns": [
+        "knee-flexion",
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "hamstrings",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "calves",
+        "back"
+      ],
+      "aliases": [
+        "Glute-Ham Raise",
+        "GHR"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "ghd-glute-ham-raise",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "band-hamstring-curl",
+      "name": "Band Hamstring Curl",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "resistance-band"
+        ]
+      ],
+      "movementPatterns": [
+        "knee-flexion"
+      ],
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "calves"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "band-hamstring-curl",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "copenhagen-plank",
+      "name": "Copenhagen Plank",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "bench"
+        ]
+      ],
+      "movementPatterns": [
+        "anti-lateral-flexion",
+        "adduction"
+      ],
+      "primaryMuscles": [
+        "adductors",
+        "obliques"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "glutes"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "copenhagen-plank",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "elevated-jefferson-curl",
+      "name": "Elevated Jefferson Curl",
+      "category": "mobility",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "plyo-box"
+        ]
+      ],
+      "movementPatterns": [
+        "spinal-flexion",
+        "hinge"
+      ],
+      "primaryMuscles": [
+        "back",
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "calves"
+      ],
+      "aliases": [
+        "Jefferson Curl"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "elevated-jefferson-curl",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "dead-bug",
+      "name": "Dead Bug",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "anti-extension",
+        "coordination"
+      ],
+      "primaryMuscles": [
+        "abdominals"
+      ],
+      "secondaryMuscles": [
+        "hip-flexors"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": true,
+      "difficulty": "beginner",
+      "familyId": "dead-bug",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "bird-dog",
+      "name": "Bird Dog",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "anti-rotation",
+        "coordination"
+      ],
+      "primaryMuscles": [
+        "trunk",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "back"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": true,
+      "difficulty": "beginner",
+      "familyId": "bird-dog",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "pallof-press",
+      "name": "Pallof Press",
+      "category": "trunk",
+      "equipmentOptions": [
+        [
+          "resistance-band"
+        ],
+        [
+          "cable-machine"
+        ]
+      ],
+      "movementPatterns": [
+        "anti-rotation"
+      ],
+      "primaryMuscles": [
+        "obliques",
+        "abdominals"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "glutes"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "pallof-press",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "farmer-carry",
+      "name": "Farmer Carry",
+      "category": "carry",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ],
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "carry"
+      ],
+      "primaryMuscles": [
+        "forearms",
+        "traps",
+        "trunk"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "calves"
+      ],
+      "aliases": [
+        "Farmers Carry",
+        "Farmer Walk"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "carry",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "suitcase-carry",
+      "name": "Suitcase Carry",
+      "category": "carry",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ],
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "carry",
+        "anti-lateral-flexion"
+      ],
+      "primaryMuscles": [
+        "obliques",
+        "forearms"
+      ],
+      "secondaryMuscles": [
+        "traps",
+        "glutes"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "carry",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "front-rack-carry",
+      "name": "Front-Rack Carry",
+      "category": "carry",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ],
+        [
+          "kettlebell"
+        ]
+      ],
+      "movementPatterns": [
+        "carry",
+        "front-rack"
+      ],
+      "primaryMuscles": [
+        "trunk",
+        "upper-back"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "forearms",
+        "glutes"
+      ],
+      "aliases": [
+        "Front Rack Carry"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "carry",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "overhead-carry",
+      "name": "Overhead Carry",
+      "category": "carry",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ],
+        [
+          "kettlebell"
+        ],
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "carry",
+        "overhead"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "trunk"
+      ],
+      "secondaryMuscles": [
+        "triceps",
+        "upper-back",
+        "glutes"
+      ],
+      "aliases": [
+        "Waiter Carry"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "carry",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "sled-push",
+      "name": "Sled Push",
+      "category": "sled",
+      "equipmentOptions": [
+        [
+          "sled",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "locomotion",
+        "push"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes",
+        "calves"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "trunk"
+      ],
+      "aliases": [
+        "Prowler Push"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "sled",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "reverse-sled-drag",
+      "name": "Reverse Sled Drag",
+      "category": "sled",
+      "equipmentOptions": [
+        [
+          "sled",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "backward-locomotion",
+        "pull"
+      ],
+      "primaryMuscles": [
+        "quadriceps"
+      ],
+      "secondaryMuscles": [
+        "calves",
+        "forearms"
+      ],
+      "aliases": [
+        "Backward Sled Drag"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "sled",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "sled-pull",
+      "name": "Sled Pull",
+      "category": "sled",
+      "equipmentOptions": [
+        [
+          "sled",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "locomotion",
+        "pull"
+      ],
+      "primaryMuscles": [
+        "back",
+        "biceps",
+        "legs"
+      ],
+      "secondaryMuscles": [
+        "forearms",
+        "trunk"
+      ],
+      "aliases": [
+        "Rope Sled Pull"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "sled",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "sandbag-bear-hug-carry",
+      "name": "Sandbag Bear-Hug Carry",
+      "category": "carry",
+      "equipmentOptions": [
+        [
+          "sandbag"
+        ]
+      ],
+      "movementPatterns": [
+        "carry"
+      ],
+      "primaryMuscles": [
+        "trunk",
+        "upper-back",
+        "biceps"
+      ],
+      "secondaryMuscles": [
+        "glutes",
+        "quadriceps",
+        "forearms"
+      ],
+      "aliases": [
+        "Sandbag Carry"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "carry",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "yoke-carry",
+      "name": "Yoke Carry",
+      "category": "carry",
+      "equipmentOptions": [
+        [
+          "yoke",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "carry"
+      ],
+      "primaryMuscles": [
+        "trunk",
+        "upper-back",
+        "legs"
+      ],
+      "secondaryMuscles": [
+        "calves",
+        "forearms"
+      ],
+      "aliases": [
+        "Yoke Walk"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "carry",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "rowing-ergometer",
+      "name": "Rowing Ergometer",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "rower"
+        ]
+      ],
+      "movementPatterns": [
+        "conditioning",
+        "pull"
+      ],
+      "primaryMuscles": [
+        "legs",
+        "back"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "trunk"
+      ],
+      "aliases": [
+        "Row",
+        "Concept2 Row"
+      ],
+      "reporting": {
+        "primaryField": "distance",
+        "requiredFields": [
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "calories"
+        ],
+        "progressMetric": "totalDistance"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-pull",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "assault-bike",
+      "name": "Assault Bike",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "assault-bike"
+        ]
+      ],
+      "movementPatterns": [
+        "conditioning"
+      ],
+      "primaryMuscles": [
+        "legs",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "trunk",
+        "arms"
+      ],
+      "aliases": [
+        "Air Bike"
+      ],
+      "reporting": {
+        "primaryField": "calories",
+        "requiredFields": [
+          "calories"
+        ],
+        "optionalFields": [
+          "duration",
+          "distance"
+        ],
+        "progressMetric": "totalCalories"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "assault-bike",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "ski-erg",
+      "name": "SkiErg",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "ski-erg"
+        ]
+      ],
+      "movementPatterns": [
+        "conditioning",
+        "pull"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "triceps",
+        "trunk"
+      ],
+      "secondaryMuscles": [
+        "legs",
+        "shoulders"
+      ],
+      "aliases": [
+        "Ski Erg"
+      ],
+      "reporting": {
+        "primaryField": "distance",
+        "requiredFields": [
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "calories"
+        ],
+        "progressMetric": "totalDistance"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "ski-erg",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "single-under",
+      "name": "Single-Under",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "jump-rope"
+        ]
+      ],
+      "movementPatterns": [
+        "jump",
+        "conditioning"
+      ],
+      "primaryMuscles": [
+        "calves"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "forearms"
+      ],
+      "aliases": [
+        "Jump Rope"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "single-under",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "double-under",
+      "name": "Double-Under",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "jump-rope"
+        ]
+      ],
+      "movementPatterns": [
+        "jump",
+        "conditioning",
+        "skill"
+      ],
+      "primaryMuscles": [
+        "calves"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "forearms"
+      ],
+      "aliases": [
+        "DU"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "double-under",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "wall-ball-shot",
+      "name": "Wall Ball Shot",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "medicine-ball"
+        ]
+      ],
+      "movementPatterns": [
+        "squat",
+        "vertical-push",
+        "conditioning"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "triceps",
+        "trunk"
+      ],
+      "aliases": [
+        "Wall Ball"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "wall-ball-shot",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "medicine-ball-slam",
+      "name": "Medicine Ball Slam",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "medicine-ball"
+        ]
+      ],
+      "movementPatterns": [
+        "power",
+        "trunk-flexion"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "abdominals",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "triceps",
+        "legs"
+      ],
+      "aliases": [
+        "Med Ball Slam"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "medicine-ball-slam",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "battle-rope-wave",
+      "name": "Battle Rope Wave",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "battle-ropes"
+        ]
+      ],
+      "movementPatterns": [
+        "conditioning",
+        "shoulder-flexion"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "forearms"
+      ],
+      "secondaryMuscles": [
+        "trunk",
+        "biceps"
+      ],
+      "aliases": [
+        "Battle Ropes"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "battle-rope-wave",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "run",
+      "name": "Run",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "run",
+        "conditioning"
+      ],
+      "primaryMuscles": [
+        "legs"
+      ],
+      "secondaryMuscles": [
+        "trunk"
+      ],
+      "aliases": [
+        "Running"
+      ],
+      "reporting": {
+        "primaryField": "distance",
+        "requiredFields": [
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "calories"
+        ],
+        "progressMetric": "totalDistance"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "run",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "walk",
+      "name": "Walk",
+      "category": "recovery",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "walk",
+        "locomotion"
+      ],
+      "primaryMuscles": [
+        "legs"
+      ],
+      "secondaryMuscles": [
+        "trunk"
+      ],
+      "aliases": [
+        "Walking"
+      ],
+      "reporting": {
+        "primaryField": "duration",
+        "requiredFields": [
+          "duration"
+        ],
+        "optionalFields": [
+          "distance",
+          "rpe"
+        ],
+        "progressMetric": "totalDuration"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "walk",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "bear-crawl",
+      "name": "Bear Crawl",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "crawl",
+        "conditioning"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "trunk",
+        "quadriceps"
+      ],
+      "secondaryMuscles": [
+        "triceps",
+        "glutes"
+      ],
+      "aliases": [],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "bear-crawl",
+      "instructions": [],
+      "coachingCues": [],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "wall-push-up",
+      "name": "Wall Push-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "wall"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts",
+        "trunk"
+      ],
+      "aliases": [
+        "Standing Wall Push-up"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "horizontal-press",
+      "instructions": [
+        "Stand facing a wall with straight arms and hands around chest height.",
+        "Bend the elbows to bring the chest toward the wall, then press back to straight arms."
+      ],
+      "coachingCues": [
+        "Keep a straight line from head to heels.",
+        "Let the shoulder blades move naturally."
+      ],
+      "relationships": [
+        {
+          "type": "progression",
+          "movementId": "incline-push-up"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "incline-push-up",
+      "name": "Incline Push-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "bench"
+        ],
+        [
+          "plyo-box"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts",
+        "trunk"
+      ],
+      "aliases": [
+        "Elevated Push-up"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "horizontal-press",
+      "instructions": [
+        "Place both hands on a stable elevated surface and step back into a straight-body plank.",
+        "Lower the chest under control, then press the surface away."
+      ],
+      "coachingCues": [
+        "Keep ribs and hips stacked.",
+        "Choose an elevation that preserves full range."
+      ],
+      "relationships": [
+        {
+          "type": "regression",
+          "movementId": "wall-push-up"
+        },
+        {
+          "type": "progression",
+          "movementId": "push-up"
+        },
+        {
+          "type": "alternative",
+          "movementId": "knee-push-up"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "knee-push-up",
+      "name": "Knee Push-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts",
+        "trunk"
+      ],
+      "aliases": [
+        "Modified Push-up"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "horizontal-press",
+      "instructions": [
+        "Start with hands beneath the shoulders and knees on the floor.",
+        "Lower chest and hips together, then press to full elbow extension."
+      ],
+      "coachingCues": [
+        "Maintain one line from knees to head.",
+        "Do not leave the hips behind."
+      ],
+      "relationships": [
+        {
+          "type": "progression",
+          "movementId": "push-up"
+        },
+        {
+          "type": "alternative",
+          "movementId": "incline-push-up"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "assisted-pull-up",
+      "name": "Assisted Pull-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "pull-up-bar",
+          "resistance-band"
+        ],
+        [
+          "machine"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-pull"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "biceps"
+      ],
+      "secondaryMuscles": [
+        "upper-back",
+        "forearms"
+      ],
+      "aliases": [
+        "Band-Assisted Pull-up",
+        "Machine-Assisted Pull-up"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "load",
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "vertical-pull",
+      "instructions": [
+        "Set enough assistance to begin from straight arms with control.",
+        "Pull the chest toward the bar, then lower to full arm extension."
+      ],
+      "coachingCues": [
+        "Start by drawing the shoulder blades down.",
+        "Use the least assistance that keeps every rep controlled."
+      ],
+      "relationships": [
+        {
+          "type": "progression",
+          "movementId": "eccentric-pull-up"
+        },
+        {
+          "type": "progression",
+          "movementId": "pull-up"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "eccentric-pull-up",
+      "name": "Eccentric Pull-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "pull-up-bar"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-pull",
+        "eccentric"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "biceps"
+      ],
+      "secondaryMuscles": [
+        "upper-back",
+        "forearms"
+      ],
+      "aliases": [
+        "Negative Pull-up"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "vertical-pull",
+      "instructions": [
+        "Step or jump to the top position with the chin above the bar.",
+        "Lower to straight arms over a controlled count before resetting."
+      ],
+      "coachingCues": [
+        "Own the full descent.",
+        "Stop the set when lowering speed cannot be controlled."
+      ],
+      "relationships": [
+        {
+          "type": "regression",
+          "movementId": "assisted-pull-up"
+        },
+        {
+          "type": "progression",
+          "movementId": "pull-up"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "dead-hang",
+      "name": "Dead Hang",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "pull-up-bar"
+        ]
+      ],
+      "movementPatterns": [
+        "hang",
+        "grip"
+      ],
+      "primaryMuscles": [
+        "forearms"
+      ],
+      "secondaryMuscles": [
+        "lats",
+        "shoulders"
+      ],
+      "aliases": [
+        "Passive Hang"
+      ],
+      "reporting": {
+        "primaryField": "duration",
+        "requiredFields": [
+          "duration"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalDuration"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "hanging",
+      "instructions": [
+        "Grip the bar and hang with straight elbows and feet clear of the floor.",
+        "Maintain a comfortable shoulder position for the prescribed time."
+      ],
+      "coachingCues": [
+        "Keep a secure full grip.",
+        "End the set if the shoulder position becomes painful."
+      ],
+      "relationships": [
+        {
+          "type": "progression",
+          "movementId": "scapular-pull-up"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "scapular-push-up",
+      "name": "Scapular Push-up",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "scapular-protraction",
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "serratus"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "trunk"
+      ],
+      "aliases": [
+        "Push-up Plus"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "scapular-control",
+      "instructions": [
+        "Hold a straight-arm plank without bending the elbows.",
+        "Let the shoulder blades come together slightly, then push the floor away to spread them."
+      ],
+      "coachingCues": [
+        "Move only through the shoulder blades.",
+        "Keep ribs and pelvis steady."
+      ],
+      "relationships": [
+        {
+          "type": "variation",
+          "movementId": "serratus-punch"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "wall-sit",
+      "name": "Wall Sit",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "wall"
+        ]
+      ],
+      "movementPatterns": [
+        "squat",
+        "isometric"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "calves",
+        "trunk"
+      ],
+      "aliases": [
+        "Wall Squat Hold"
+      ],
+      "reporting": {
+        "primaryField": "duration",
+        "requiredFields": [
+          "duration"
+        ],
+        "optionalFields": [
+          "load",
+          "rpe"
+        ],
+        "progressMetric": "totalDuration"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "squat",
+      "instructions": [
+        "Lean the back against a wall and walk the feet forward.",
+        "Slide down to a controlled squat depth and hold without pushing on the thighs."
+      ],
+      "coachingCues": [
+        "Keep pressure through the whole foot.",
+        "Choose a knee angle you can hold without pain."
+      ],
+      "relationships": [
+        {
+          "type": "regression",
+          "movementId": "air-squat"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "mountain-climber",
+      "name": "Mountain Climber",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "crawl",
+        "conditioning",
+        "trunk-flexion"
+      ],
+      "primaryMuscles": [
+        "hip-flexors",
+        "abdominals",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "triceps"
+      ],
+      "aliases": [
+        "Mountain Climbers"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": true,
+      "difficulty": "beginner",
+      "familyId": "mountain-climber",
+      "instructions": [
+        "Begin in a straight-arm plank.",
+        "Drive one knee toward the chest and alternate legs at the prescribed pace."
+      ],
+      "coachingCues": [
+        "Keep shoulders over hands.",
+        "Limit hip movement as speed increases."
+      ],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "bodyweight-calf-raise",
+      "name": "Bodyweight Calf Raise",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "plantar-flexion"
+      ],
+      "primaryMuscles": [
+        "calves"
+      ],
+      "secondaryMuscles": [],
+      "aliases": [
+        "Standing Bodyweight Calf Raise"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "calf-raise",
+      "instructions": [
+        "Stand tall with feet around hip width.",
+        "Rise onto the balls of the feet, pause, and lower the heels under control."
+      ],
+      "coachingCues": [
+        "Reach full height without rolling the ankles.",
+        "Use a wall lightly for balance if needed."
+      ],
+      "relationships": [
+        {
+          "type": "progression",
+          "movementId": "standing-calf-raise"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "clean-and-jerk",
+      "name": "Clean and Jerk",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge",
+        "squat",
+        "vertical-push",
+        "power"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "upper-back",
+        "triceps",
+        "trunk"
+      ],
+      "aliases": [
+        "C&J",
+        "Clean & Jerk"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "clean-and-jerk",
+      "instructions": [
+        "Clean the bar from the floor and stand to full extension in the front rack.",
+        "Reset the feet and breath, then drive the bar overhead with the prescribed jerk style."
+      ],
+      "coachingCues": [
+        "Finish the clean before setting up the jerk.",
+        "Recover with the bar stacked over the middle of the body."
+      ],
+      "relationships": [
+        {
+          "type": "variation",
+          "movementId": "clean"
+        },
+        {
+          "type": "variation",
+          "movementId": "split-jerk"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "thruster",
+      "name": "Barbell Thruster",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "squat",
+        "vertical-push"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "triceps",
+        "upper-back",
+        "trunk"
+      ],
+      "aliases": [
+        "Thruster"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe",
+          "duration"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "thruster",
+      "instructions": [
+        "Hold the bar in the front rack and descend into a full front squat.",
+        "Stand aggressively and continue the leg drive into an overhead lockout."
+      ],
+      "coachingCues": [
+        "Keep the bar supported through the squat.",
+        "Make the squat and press one continuous drive."
+      ],
+      "relationships": [
+        {
+          "type": "variation",
+          "movementId": "front-squat"
+        },
+        {
+          "type": "variation",
+          "movementId": "push-press"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "dumbbell-snatch",
+      "name": "Dumbbell Snatch",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge",
+        "vertical-pull",
+        "overhead",
+        "power"
+      ],
+      "primaryMuscles": [
+        "glutes",
+        "hamstrings",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "upper-back",
+        "trunk"
+      ],
+      "aliases": [
+        "Single-Arm Dumbbell Snatch"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe",
+          "duration"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "snatch",
+      "instructions": [
+        "Start with one dumbbell between the feet and hinge to grip it.",
+        "Drive through the floor and guide the dumbbell to a stable overhead lockout in one motion."
+      ],
+      "coachingCues": [
+        "Keep the dumbbell close to the body.",
+        "Finish with ribs down and elbow locked."
+      ],
+      "relationships": [
+        {
+          "type": "alternative",
+          "movementId": "power-snatch"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "dumbbell-clean-and-jerk",
+      "name": "Dumbbell Clean and Jerk",
+      "category": "olympic",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "hinge",
+        "front-rack",
+        "vertical-push",
+        "power"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes",
+        "shoulders"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "triceps",
+        "trunk"
+      ],
+      "aliases": [
+        "Single-Arm Dumbbell Clean and Jerk"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe",
+          "duration"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "clean-and-jerk",
+      "instructions": [
+        "Clean one dumbbell from the floor or hang to the shoulder.",
+        "Dip and drive it to a stable overhead lockout before returning under control."
+      ],
+      "coachingCues": [
+        "Receive the clean softly at the shoulder.",
+        "Use the legs before pressing with the arm."
+      ],
+      "relationships": [
+        {
+          "type": "alternative",
+          "movementId": "clean-and-jerk"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "wall-walk",
+      "name": "Wall Walk",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "wall"
+        ]
+      ],
+      "movementPatterns": [
+        "inversion",
+        "vertical-push",
+        "locomotion"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "triceps",
+        "trunk"
+      ],
+      "secondaryMuscles": [
+        "chest",
+        "upper-back"
+      ],
+      "aliases": [
+        "Handstand Wall Walk"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "handstand",
+      "instructions": [
+        "Begin prone with feet at the wall and hands near the shoulders.",
+        "Walk the feet up and hands toward the wall, then reverse under control to the floor."
+      ],
+      "coachingCues": [
+        "Take short controlled hand steps.",
+        "Keep the trunk braced as the body becomes vertical."
+      ],
+      "relationships": [
+        {
+          "type": "progression",
+          "movementId": "handstand-walk"
+        },
+        {
+          "type": "progression",
+          "movementId": "handstand-push-up"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "handstand-walk",
+      "name": "Handstand Walk",
+      "category": "skill",
+      "equipmentOptions": [
+        [
+          "none"
+        ]
+      ],
+      "movementPatterns": [
+        "inversion",
+        "locomotion",
+        "vertical-push"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "trunk",
+        "upper-back",
+        "forearms"
+      ],
+      "aliases": [
+        "Handstand Walking"
+      ],
+      "reporting": {
+        "primaryField": "distance",
+        "requiredFields": [
+          "distance"
+        ],
+        "optionalFields": [
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "totalDistance"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "handstand",
+      "instructions": [
+        "Kick to a balanced handstand with locked elbows.",
+        "Shift weight from hand to hand and take small steps while maintaining a stacked position."
+      ],
+      "coachingCues": [
+        "Look between the hands.",
+        "Move from controlled weight shifts, not a falling chase."
+      ],
+      "relationships": [
+        {
+          "type": "regression",
+          "movementId": "wall-walk"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "box-jump-over",
+      "name": "Box Jump-over",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "plyo-box"
+        ]
+      ],
+      "movementPatterns": [
+        "jump",
+        "power",
+        "conditioning"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes",
+        "calves"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "trunk"
+      ],
+      "aliases": [
+        "Box Jump Over"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "height",
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "box-jump",
+      "instructions": [
+        "Jump onto the box with both feet and establish control.",
+        "Travel over the box and step or jump down on the opposite side as prescribed."
+      ],
+      "coachingCues": [
+        "Land with the whole foot on the box.",
+        "Use a repeatable height when fatigue rises."
+      ],
+      "relationships": [
+        {
+          "type": "variation",
+          "movementId": "box-jump"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "burpee-box-jump-over",
+      "name": "Burpee Box Jump-over",
+      "category": "conditioning",
+      "equipmentOptions": [
+        [
+          "plyo-box"
+        ]
+      ],
+      "movementPatterns": [
+        "burpee",
+        "jump",
+        "conditioning"
+      ],
+      "primaryMuscles": [
+        "full-body"
+      ],
+      "secondaryMuscles": [
+        "quadriceps",
+        "glutes",
+        "shoulders",
+        "triceps"
+      ],
+      "aliases": [
+        "BBJO"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "height",
+          "duration",
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "burpee-box-jump",
+      "instructions": [
+        "Complete a burpee facing or beside the box as prescribed.",
+        "Jump onto and travel over the box before beginning the next repetition."
+      ],
+      "coachingCues": [
+        "Use a consistent approach to the box.",
+        "Step down when jumping down would compromise control."
+      ],
+      "relationships": [
+        {
+          "type": "variation",
+          "movementId": "burpee"
+        },
+        {
+          "type": "variation",
+          "movementId": "box-jump-over"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "paused-bench-press",
+      "name": "Paused Bench Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "bench",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push"
+      ],
+      "primaryMuscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts",
+        "upper-back"
+      ],
+      "aliases": [
+        "Pause Bench Press"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "estimatedOneRepMax"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [
+        "Lower the bar to a stable touch point on the chest.",
+        "Hold motionless for the prescribed pause, then press to lockout."
+      ],
+      "coachingCues": [
+        "Keep upper-back tension during the pause.",
+        "Do not let the bar sink before pressing."
+      ],
+      "relationships": [
+        {
+          "type": "variation",
+          "movementId": "bench-press"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "tempo-bench-press",
+      "name": "Tempo Bench Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "bench",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-push",
+        "tempo"
+      ],
+      "primaryMuscles": [
+        "chest",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "front-delts",
+        "upper-back"
+      ],
+      "aliases": [
+        "Slow-Eccentric Bench Press"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "estimatedOneRepMax"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "horizontal-press",
+      "instructions": [
+        "Unrack with the upper back set and elbows locked.",
+        "Lower according to the prescribed tempo, touch consistently, and press normally unless instructed otherwise."
+      ],
+      "coachingCues": [
+        "Count the tempo evenly.",
+        "Keep the bar path consistent as speed slows."
+      ],
+      "relationships": [
+        {
+          "type": "variation",
+          "movementId": "bench-press"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "weighted-chin-up",
+      "name": "Weighted Chin-up",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "pull-up-bar",
+          "dumbbell"
+        ],
+        [
+          "pull-up-bar",
+          "kettlebell"
+        ],
+        [
+          "pull-up-bar",
+          "weight-belt",
+          "plates"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-pull"
+      ],
+      "primaryMuscles": [
+        "lats",
+        "biceps"
+      ],
+      "secondaryMuscles": [
+        "upper-back",
+        "forearms"
+      ],
+      "aliases": [
+        "Weighted Supinated Pull-up"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "estimatedOneRepMax"
+      },
+      "unilateral": false,
+      "difficulty": "advanced",
+      "familyId": "vertical-pull",
+      "instructions": [
+        "Hang from the bar with a supinated grip and the external load secured.",
+        "Pull until the chin clears the bar, then lower to straight arms under control."
+      ],
+      "coachingCues": [
+        "Keep the added load quiet.",
+        "Use the same start and finish standard every set."
+      ],
+      "relationships": [
+        {
+          "type": "progression",
+          "movementId": "chin-up"
+        },
+        {
+          "type": "alternative",
+          "movementId": "weighted-pull-up"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "lat-pulldown",
+      "name": "Lat Pulldown",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "lat-pulldown-machine"
+        ],
+        [
+          "cable-machine"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-pull"
+      ],
+      "primaryMuscles": [
+        "lats"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "upper-back",
+        "forearms"
+      ],
+      "aliases": [
+        "Cable Lat Pulldown"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "vertical-pull",
+      "instructions": [
+        "Sit securely and take an even grip with arms extended overhead.",
+        "Pull the attachment toward the upper chest, then return to full arm extension under control."
+      ],
+      "coachingCues": [
+        "Drive elbows down rather than leaning back.",
+        "Keep the neck relaxed."
+      ],
+      "relationships": [
+        {
+          "type": "alternative",
+          "movementId": "assisted-pull-up"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "seated-cable-row",
+      "name": "Seated Cable Row",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "seated-row-machine"
+        ],
+        [
+          "cable-machine"
+        ]
+      ],
+      "movementPatterns": [
+        "horizontal-pull"
+      ],
+      "primaryMuscles": [
+        "upper-back",
+        "lats"
+      ],
+      "secondaryMuscles": [
+        "biceps",
+        "rear-delts",
+        "forearms"
+      ],
+      "aliases": [
+        "Cable Row"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "horizontal-pull",
+      "instructions": [
+        "Sit tall with the cable under tension and arms extended.",
+        "Pull the handle toward the torso, pause briefly, and return without losing posture."
+      ],
+      "coachingCues": [
+        "Lead with the elbows.",
+        "Avoid turning the finish into a backward lean."
+      ],
+      "relationships": [
+        {
+          "type": "alternative",
+          "movementId": "chest-supported-dumbbell-row"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "leg-press",
+      "name": "Leg Press",
+      "category": "strength",
+      "equipmentOptions": [
+        [
+          "leg-press-machine"
+        ]
+      ],
+      "movementPatterns": [
+        "squat"
+      ],
+      "primaryMuscles": [
+        "quadriceps",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hamstrings",
+        "adductors"
+      ],
+      "aliases": [
+        "Machine Leg Press"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "squat",
+      "instructions": [
+        "Set the seat so the hips and back remain supported through a comfortable depth.",
+        "Lower the platform under control and press through the feet without locking the knees aggressively."
+      ],
+      "coachingCues": [
+        "Keep knees tracking with toes.",
+        "Use the same depth and machine setup each session."
+      ],
+      "relationships": [
+        {
+          "type": "alternative",
+          "movementId": "back-squat"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "leg-curl",
+      "name": "Leg Curl",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "leg-curl-machine"
+        ]
+      ],
+      "movementPatterns": [
+        "knee-flexion"
+      ],
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "secondaryMuscles": [
+        "calves"
+      ],
+      "aliases": [
+        "Machine Leg Curl",
+        "Lying Leg Curl",
+        "Seated Leg Curl"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "knee-flexion",
+      "instructions": [
+        "Align the machine pivot with the knee and secure the pad above the heel.",
+        "Curl through the available range, pause, and return the weight under control."
+      ],
+      "coachingCues": [
+        "Keep the hips stable.",
+        "Do not let the weight stack drop between reps."
+      ],
+      "relationships": [
+        {
+          "type": "alternative",
+          "movementId": "band-hamstring-curl"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "leg-extension",
+      "name": "Leg Extension",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "leg-extension-machine"
+        ]
+      ],
+      "movementPatterns": [
+        "knee-extension"
+      ],
+      "primaryMuscles": [
+        "quadriceps"
+      ],
+      "secondaryMuscles": [],
+      "aliases": [
+        "Machine Leg Extension"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "knee-extension",
+      "instructions": [
+        "Align the machine pivot with the knee and place the lower pad above the ankle.",
+        "Extend the knees smoothly, pause near the top, and lower under control."
+      ],
+      "coachingCues": [
+        "Keep the hips against the seat.",
+        "Use a pain-free range without swinging."
+      ],
+      "relationships": [
+        {
+          "type": "alternative",
+          "movementId": "band-terminal-knee-extension"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "id": "triceps-pushdown",
+      "name": "Triceps Pushdown",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "cable-machine"
+        ],
+        [
+          "resistance-band"
+        ]
+      ],
+      "movementPatterns": [
+        "elbow-extension"
+      ],
+      "primaryMuscles": [
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "forearms"
+      ],
+      "aliases": [
+        "Cable Pushdown",
+        "Band Pushdown"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "beginner",
+      "familyId": "elbow-extension",
+      "instructions": [
+        "Stand with the attachment held near the lower chest and elbows close to the sides.",
+        "Extend the elbows fully, then return until the forearms rise without moving the upper arms."
+      ],
+      "coachingCues": [
+        "Keep shoulders quiet.",
+        "Finish by straightening the elbows, not leaning over the handle."
+      ],
+      "relationships": [
+        {
+          "type": "alternative",
+          "movementId": "dumbbell-triceps-extension"
+        }
+      ],
+      "status": "active"
+    }
+  ]
+}

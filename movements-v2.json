@@ -1,7 +1,7 @@
 {
   "format": "strengthos.movement-catalog",
   "formatVersion": 2,
-  "revision": "2026-07-17",
+  "revision": "2026-11-12",
   "equipment": [
     {
       "id": "none",
@@ -1719,6 +1719,65 @@
       "instructions": [],
       "coachingCues": [],
       "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "barbell-calf-raise",
+      "name": "Barbell Calf Raise",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "barbell",
+          "plates",
+          "squat-rack"
+        ]
+      ],
+      "movementPatterns": [
+        "plantar-flexion"
+      ],
+      "primaryMuscles": [
+        "calves"
+      ],
+      "secondaryMuscles": [],
+      "aliases": [
+        "Barbell Calf Raises",
+        "Standing Barbell Calf Raise",
+        "Vadpress med skivstång",
+        "Stående vadpress med skivstång"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": false,
+      "difficulty": "intermediate",
+      "familyId": "standing-calf-raise",
+      "instructions": [
+        "Set the bar across your upper back in a rack and stand with feet around hip width.",
+        "Rise onto the balls of your feet, pause, and lower your heels under control.",
+        "Record the total barbell weight, including the bar and plates."
+      ],
+      "coachingCues": [
+        "Keep your torso steady and avoid bouncing.",
+        "Use a consistent range of motion for each repetition."
+      ],
+      "relationships": [
+        {
+          "type": "variation",
+          "movementId": "standing-calf-raise"
+        },
+        {
+          "type": "alternative",
+          "movementId": "bodyweight-calf-raise"
+        }
+      ],
       "status": "active"
     },
     {

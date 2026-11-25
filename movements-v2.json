@@ -1,7 +1,7 @@
 {
   "format": "strengthos.movement-catalog",
   "formatVersion": 2,
-  "revision": "2026-11-12",
+  "revision": "2026-11-25",
   "equipment": [
     {
       "id": "none",
@@ -189,7 +189,10 @@
       "difficulty": "intermediate",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Brace before you unlock the knees.",
+        "Keep pressure through the whole foot as you drive up."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -233,7 +236,10 @@
       "difficulty": "intermediate",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Drive elbows up before you descend.",
+        "Stay tall and push through the whole foot."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -279,7 +285,10 @@
       "difficulty": "advanced",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Press up into the bar with a wide grip and straight elbows.",
+        "Keep the bar over the middle of your feet as you squat and stand."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -322,7 +331,10 @@
       "difficulty": "intermediate",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Cradle the bar in the bends of your elbows and hold it close to your torso.",
+        "Keep the bar over your feet as you sit down between your knees and stand."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -365,7 +377,10 @@
       "difficulty": "intermediate",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Brace and sit back until your weight settles onto the box under control.",
+        "Keep tension at the bottom and stand without rocking forward."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -409,7 +424,10 @@
       "difficulty": "intermediate",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Settle at the prescribed depth and keep pressure through the whole foot.",
+        "Hold your brace for the pause, then drive up without dipping again."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -451,7 +469,10 @@
       "difficulty": "intermediate",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Use the prescribed count for each phase and keep pressure across your feet.",
+        "Maintain tension through the change of direction without speeding through the bottom."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -493,7 +514,10 @@
       "difficulty": "intermediate",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hold the weight close to your chest with your elbows pointing down.",
+        "Sit between your feet and stand with your heels planted."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -545,7 +569,10 @@
       "difficulty": "intermediate",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Set your feet on two hip-width tracks and keep them in place.",
+        "Lower the rear knee toward the floor and rise through your front foot."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -599,7 +626,10 @@
       "difficulty": "intermediate",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Rest your rear foot on the bench and plant your whole front foot.",
+        "Lower your back knee and drive through the front leg to stand."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -656,7 +686,10 @@
       "difficulty": "intermediate",
       "familyId": "single-leg-squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Plant your whole working foot on a stable box before you rise.",
+        "Stand through the top leg and lower with control, keeping the trailing foot light."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -707,7 +740,10 @@
       "difficulty": "intermediate",
       "familyId": "single-leg-squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Step back on a hip-width track and lower your rear knee toward the floor.",
+        "Push through the front foot to return to standing."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -758,7 +794,10 @@
       "difficulty": "intermediate",
       "familyId": "single-leg-squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Step forward on a hip-width track and bend both knees to lower.",
+        "Drive through the front foot and bring the back leg through for the next step."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -807,7 +846,10 @@
       "difficulty": "intermediate",
       "familyId": "single-leg-squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Step wide to the side, then bend the stepping knee as your hips move back.",
+        "Keep the other leg long and push through the bent leg to return."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -852,7 +894,10 @@
       "difficulty": "intermediate",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Pull the slack out before the plates leave the floor.",
+        "Keep the bar close and push the floor away."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -895,7 +940,10 @@
       "difficulty": "intermediate",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Take a wide stance with your toes turned out and grip inside your knees.",
+        "Push through your feet with your knees following your toes and the bar close."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -922,7 +970,8 @@
         "forearms"
       ],
       "aliases": [
-        "Hex-Bar Deadlift"
+        "Hex-Bar Deadlift",
+        "Trap Bar or Conventional Deadlift"
       ],
       "reporting": {
         "primaryField": "load",
@@ -939,7 +988,10 @@
       "difficulty": "intermediate",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Center yourself inside the frame and take the middle of each handle.",
+        "Push through both feet so the handles rise together and the frame stays level."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -982,7 +1034,10 @@
       "difficulty": "intermediate",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start tall with soft knees and slide the bar down close to your legs.",
+        "Push your hips back until your hamstrings tighten, then bring your hips forward to stand."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1024,7 +1079,10 @@
       "difficulty": "intermediate",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep a small, nearly constant bend in your knees as your hips travel back.",
+        "Keep the bar close and reverse where you can still hold your back position."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1066,7 +1124,10 @@
       "difficulty": "intermediate",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Stand on a low, stable platform with the bar over your midfoot.",
+        "Take up the slack and drive through the platform while keeping the bar close."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1110,7 +1171,10 @@
       "difficulty": "intermediate",
       "familyId": "rack-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Set both supports to the same height and bring the bar close to your legs.",
+        "Take up the slack before standing tall, then settle the bar on both supports."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1152,7 +1216,10 @@
       "difficulty": "intermediate",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Set the bar across your upper back, brace and soften your knees.",
+        "Push your hips back with a steady spine, then drive your hips forward to stand."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1195,7 +1262,10 @@
       "difficulty": "intermediate",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Rest your upper back against a stable bench and center the padded bar in your hip crease.",
+        "Drive through your feet until your hips and trunk line up."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1232,7 +1302,10 @@
       "difficulty": "intermediate",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Lie on your back with knees bent and feet flat.",
+        "Press through your feet and lift your hips until your thighs and trunk line up."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1277,7 +1350,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Pin the upper back to the bench before unracking.",
+        "Touch consistently, then press back over the shoulders."
+      ],
       "relationships": [
         {
           "type": "variation",
@@ -1330,7 +1406,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Choose a grip that keeps your wrists above your elbows at the bottom.",
+        "Lower to your chest with your upper back set, then press back over your shoulders."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1374,7 +1453,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Plant your feet on the floor and set your upper back against the incline bench.",
+        "Bring the bar toward your upper chest, then press it back over your shoulders."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1415,7 +1497,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Secure your legs on the decline bench and set your upper back before unracking.",
+        "Lower to your lower chest under control, then press back over your shoulders."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1458,7 +1543,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Set your upper back on the floor and hold the bar over your shoulders.",
+        "Let your upper arms settle gently on the floor, then press without bouncing."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1504,7 +1592,10 @@
       "difficulty": "intermediate",
       "familyId": "vertical-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Squeeze glutes and keep ribs stacked before pressing.",
+        "Finish with the bar over the middle of the foot."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1548,7 +1639,10 @@
       "difficulty": "intermediate",
       "familyId": "vertical-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Dip with your torso upright and heels planted, then drive through your legs.",
+        "Finish the press overhead with straight knees and the bar balanced over your feet."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1590,7 +1684,10 @@
       "difficulty": "intermediate",
       "familyId": "vertical-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start with the free end of the bar at your shoulder and your ribs over your hips.",
+        "Press up and forward along the bar's arc and let your shoulder blade move with it."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1634,7 +1731,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hinge and hold your torso steady with the bar hanging beneath your shoulders.",
+        "Draw the bar toward your lower ribs and lower it along the same path."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1675,7 +1775,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hinge until your torso is nearly parallel to the floor and take tension on the bar.",
+        "Row to your lower chest, then let the plates settle on the floor before the next rep."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1717,7 +1820,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Lie face down on a stable raised bench and let the bar hang beneath you.",
+        "Draw the bar toward the underside of the bench with your chest staying supported."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1765,8 +1871,8 @@
         "Record the total barbell weight, including the bar and plates."
       ],
       "coachingCues": [
-        "Keep your torso steady and avoid bouncing.",
-        "Use a consistent range of motion for each repetition."
+        "Set the bar securely on your upper back and rise onto the balls of both feet.",
+        "Pause at the top and lower your heels smoothly with the bar level."
       ],
       "relationships": [
         {
@@ -1815,7 +1921,10 @@
       "difficulty": "intermediate",
       "familyId": "barbell-curl",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start with palms up and elbows beside your ribs.",
+        "Curl the bar toward your shoulders without swinging your hips."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1855,7 +1964,10 @@
       "difficulty": "intermediate",
       "familyId": "skull-crusher",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hold the bar over your shoulders with a secure grip and steady upper arms.",
+        "Bend your elbows to lower the bar just behind your head, then straighten your arms."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1901,7 +2013,10 @@
       "difficulty": "advanced",
       "familyId": "clean",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep the bar close as you push the floor away.",
+        "Turn your elbows through quickly and receive the bar on your shoulders in a squat."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1945,7 +2060,10 @@
       "difficulty": "advanced",
       "familyId": "clean",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Stay balanced over the whole foot through the first pull.",
+        "Finish tall, then move fast under the bar."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -1988,7 +2106,10 @@
       "difficulty": "advanced",
       "familyId": "clean",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hinge to the prescribed hang height with the bar close to your thighs.",
+        "Drive through your legs and turn your elbows through to receive in a front squat."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2031,7 +2152,10 @@
       "difficulty": "advanced",
       "familyId": "clean",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "From the hang, keep the bar close as you extend your hips and knees.",
+        "Catch on your shoulders with elbows forward and hips above knee height."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2074,7 +2198,10 @@
       "difficulty": "advanced",
       "familyId": "clean",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Use your clean grip and keep the bar close as it passes your knees.",
+        "Finish tall through your legs and hips with your arms long."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2116,7 +2243,10 @@
       "difficulty": "advanced",
       "familyId": "clean",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Drive through your legs and finish extending your hips before bending your arms.",
+        "Guide your elbows up and out, keeping the bar near your torso."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2159,7 +2289,10 @@
       "difficulty": "advanced",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Set up as for a clean, with your shoulders slightly in front of the bar.",
+        "Push the floor away and keep the bar close past your knees to standing."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2201,7 +2334,10 @@
       "difficulty": "advanced",
       "familyId": "clean",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Drive through the floor and finish tall as the bar rises close to your body.",
+        "Turn your elbows under to rack the bar while keeping your knees extended."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2248,7 +2384,10 @@
       "difficulty": "advanced",
       "familyId": "snatch",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Push the floor away with a wide grip and keep the bar close past your knees.",
+        "Move under the bar quickly and meet it on straight arms in an overhead squat."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2293,7 +2432,10 @@
       "difficulty": "advanced",
       "familyId": "snatch",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Drive the floor away with a wide grip and keep the bar close as it rises.",
+        "Meet it overhead with straight elbows and your hips above knee height."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2337,7 +2479,10 @@
       "difficulty": "advanced",
       "familyId": "snatch",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hinge to the prescribed hang height with a wide grip.",
+        "Finish the leg drive, then pull under to meet the bar overhead in a squat."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2381,7 +2526,10 @@
       "difficulty": "advanced",
       "familyId": "snatch",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "From the hang, extend through your legs and keep the bar close.",
+        "Move under fast and receive overhead with straight arms in a partial squat."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2424,7 +2572,10 @@
       "difficulty": "advanced",
       "familyId": "snatch",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Use your snatch grip and guide the bar close past the knees.",
+        "Extend your legs and hips with straight arms, then lower under control."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2469,7 +2620,10 @@
       "difficulty": "advanced",
       "familyId": "snatch",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start with the bar on your upper back in a snatch grip and dip straight down.",
+        "Drive briefly, then push yourself under to receive on straight arms in a squat."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2516,7 +2670,10 @@
       "difficulty": "advanced",
       "familyId": "jerk",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Dip upright and drive the bar up, then split your feet and meet it on straight arms.",
+        "Steady the bar, draw your front foot partway back, then step the rear foot forward."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2561,7 +2718,10 @@
       "difficulty": "advanced",
       "familyId": "jerk",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep your torso upright through the dip and drive the bar up with your legs.",
+        "Drop under to straight arms with bent knees, then stand to finish."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2606,7 +2766,10 @@
       "difficulty": "advanced",
       "familyId": "jerk",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Dip straight down, then drive the bar off your shoulders with your legs.",
+        "Rebend both knees to receive overhead in a partial squat, then stand with the bar steady."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2649,7 +2812,10 @@
       "difficulty": "intermediate",
       "familyId": "jerk",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Rest the bar on your shoulders and dip straight down over your whole feet.",
+        "Stop at the bottom, let the bar settle, then stand with it still on your shoulders."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2691,7 +2857,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Plant your feet and hold one dumbbell above each shoulder.",
+        "Lower the weights beside your chest with your wrists over your elbows, then press."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2733,7 +2902,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Settle against the incline bench with the dumbbells above your shoulders.",
+        "Lower them to either side of your upper chest, keeping wrists over elbows."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2775,7 +2947,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Plant both feet and settle both shoulders evenly against the bench.",
+        "Press the dumbbell over the loaded shoulder while keeping the opposite hip down."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2814,7 +2989,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Lie on the floor with a dumbbell above each shoulder.",
+        "Let your upper arms touch the floor gently before pressing the weights back up."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2856,7 +3034,10 @@
       "difficulty": "intermediate",
       "familyId": "vertical-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Plant both feet and start with the dumbbells just outside your shoulders.",
+        "Press them overhead while keeping your ribs stacked over your hips."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2898,7 +3079,10 @@
       "difficulty": "intermediate",
       "familyId": "vertical-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hold one dumbbell at shoulder height and brace with your knees still.",
+        "Press above the same shoulder without bending sideways."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2938,7 +3122,10 @@
       "difficulty": "intermediate",
       "familyId": "vertical-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start with the dumbbells in front of your shoulders, palms facing you.",
+        "Turn your palms forward as you press, then unwind along the same path."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -2981,7 +3168,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep hips and shoulders square to the floor.",
+        "Drive the elbow toward the hip without twisting."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3007,7 +3197,8 @@
         "rear-delts"
       ],
       "aliases": [
-        "Chest-Supported Row"
+        "Chest-Supported Row",
+        "Chest-Supported DB Row"
       ],
       "reporting": {
         "primaryField": "load",
@@ -3024,7 +3215,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep the chest heavy on the pad.",
+        "Pull elbows back without shrugging."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3065,7 +3259,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Use stable dumbbells and set your feet wide in a high plank.",
+        "Press into one handle as you row the other toward your hip, keeping your belt line level."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3107,7 +3304,10 @@
       "difficulty": "intermediate",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Soften your knees and slide the dumbbells close along your thighs.",
+        "Send your hips back until you feel your hamstrings stretch, then stand tall."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3156,7 +3356,10 @@
       "difficulty": "intermediate",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Soften the standing knee and reach the opposite heel back as your torso tips forward.",
+        "Keep both hips facing the floor, then press through your standing foot to rise."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3196,7 +3399,10 @@
       "difficulty": "intermediate",
       "familyId": "dumbbell-lateral-raise",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep a soft bend in your elbows and raise your arms slightly forward of your sides.",
+        "Lead with your elbows toward shoulder height without swinging the weights."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3236,7 +3442,10 @@
       "difficulty": "intermediate",
       "familyId": "rear-delt-raise",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hinge forward and let the dumbbells hang with elbows slightly bent.",
+        "Open your arms out to the sides while keeping your torso still."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3274,7 +3483,10 @@
       "difficulty": "intermediate",
       "familyId": "dumbbell-front-raise",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep a slight bend in your elbows and hold your torso still.",
+        "Lift the dumbbells in front to about shoulder height, then lower smoothly."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3314,7 +3526,10 @@
       "difficulty": "intermediate",
       "familyId": "dumbbell-curl",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep your elbows near your sides as you curl the dumbbells.",
+        "Turn your palms up and lower the weights without swinging your torso."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3353,7 +3568,10 @@
       "difficulty": "intermediate",
       "familyId": "hammer-curl",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep your thumbs pointing up and your elbows beside your ribs.",
+        "Curl the dumbbells without swinging, then lower them fully under control."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3391,7 +3609,10 @@
       "difficulty": "intermediate",
       "familyId": "dumbbell-triceps-extension",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hold the weight overhead with your upper arm close to your head.",
+        "Bend at the elbow to lower the weight behind you, then extend without arching your back."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3435,7 +3656,10 @@
       "difficulty": "intermediate",
       "familyId": "kettlebell-swing",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hike the bell high between your thighs, then stand sharply through your hips.",
+        "Let the bell float to about chest height and hinge as it swings back."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3480,7 +3704,10 @@
       "difficulty": "intermediate",
       "familyId": "american-kettlebell-swing",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hike the bell back high between your thighs, then snap your hips straight.",
+        "Finish with the bell balanced overhead and your ribs over your hips."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3522,7 +3749,10 @@
       "difficulty": "intermediate",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Rest one bell against each forearm at shoulder height.",
+        "Keep both bells close and your heels down as you squat and stand."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3564,7 +3794,10 @@
       "difficulty": "intermediate",
       "familyId": "hinge",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Stand over the bell, hinge back and grasp the handle with both hands.",
+        "Push through the floor to stand, then hinge to place the bell between your feet."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3607,7 +3840,10 @@
       "difficulty": "advanced",
       "familyId": "clean",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hike the bell back and use your hips to send it up close to your body.",
+        "Slip your hand around the handle so the bell settles softly against your forearm."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3652,7 +3888,10 @@
       "difficulty": "advanced",
       "familyId": "snatch",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Drive the bell up from a backswing and keep it close as it rises.",
+        "Slip your hand through the handle near the top so the bell settles softly overhead."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3694,7 +3933,10 @@
       "difficulty": "intermediate",
       "familyId": "kettlebell-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start with the bell resting on your forearm and your wrist straight.",
+        "Press overhead with your knees still, then guide the bell back to the rack."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3742,7 +3984,10 @@
       "difficulty": "intermediate",
       "familyId": "turkish-get-up",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Roll to your elbow, then your hand, keeping the weight over the same shoulder.",
+        "Lift your hips to sweep the straight leg under you. Settle in half-kneeling before standing."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3785,7 +4030,10 @@
       "difficulty": "intermediate",
       "familyId": "carry",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hold the handle with the bell upside down and your wrist over your elbow.",
+        "Take short steps and keep the bell balanced above your fist."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3829,7 +4077,10 @@
       "difficulty": "intermediate",
       "familyId": "kettlebell-windmill",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hold the bell above your shoulder and shift your hips toward the loaded side.",
+        "Hinge as your free hand slides down the opposite leg, keeping the bell balanced overhead."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3870,7 +4121,10 @@
       "difficulty": "beginner",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep your heels down and let your knees follow your toes.",
+        "Stand up with your hips and chest rising together."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3913,7 +4167,10 @@
       "difficulty": "advanced",
       "familyId": "squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Reach one leg forward and keep your whole standing foot planted.",
+        "Sit down on the working leg to a depth you can reverse without the free foot touching."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -3954,7 +4211,10 @@
       "difficulty": "beginner",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Brace so your chest and hips travel together as you bend your elbows.",
+        "Press the floor away until your arms are straight."
+      ],
       "relationships": [
         {
           "type": "regression",
@@ -4003,7 +4263,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Lower your chest and hips together until you reach the floor.",
+        "Lift both hands briefly, replant them, then push your whole body up together."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4042,7 +4305,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Put your feet on a stable support and brace from shoulders to heels.",
+        "Lower your chest between your hands with your hips moving with it."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4081,7 +4347,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Set your hips high and shift weight onto your hands.",
+        "Bend your elbows so your head travels just ahead of your hands, then press back up."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4123,7 +4392,10 @@
       "difficulty": "advanced",
       "familyId": "horizontal-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Set your hands so they and your head form a triangle at the bottom.",
+        "Lower to a light head touch, then push the floor away to finish tall through your shoulders."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4165,7 +4437,10 @@
       "difficulty": "intermediate",
       "familyId": "vertical-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start with an overhand grip and straight arms, letting any swing settle.",
+        "Draw your elbows toward your ribs until your chin clears the bar, then lower smoothly."
+      ],
       "relationships": [
         {
           "type": "regression",
@@ -4215,7 +4490,10 @@
       "difficulty": "intermediate",
       "familyId": "vertical-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start each rep from a quiet, controlled hang.",
+        "Drive the elbows down without reaching the chin."
+      ],
       "relationships": [
         {
           "type": "progression",
@@ -4271,7 +4549,10 @@
       "difficulty": "intermediate",
       "familyId": "vertical-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Secure the added load before taking an overhand grip and settling into a still hang.",
+        "Pull your chin above the bar and lower to straight arms without swinging the load."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4314,7 +4595,10 @@
       "difficulty": "intermediate",
       "familyId": "vertical-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start with long arms and a secure grip on the bar.",
+        "Draw your elbows back until your chest meets the bar below the collarbones."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4354,7 +4638,10 @@
       "difficulty": "beginner",
       "familyId": "horizontal-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Lean back on straight arms and brace so your trunk and legs move together.",
+        "Draw the rings toward the sides of your chest, then lower under control."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4397,7 +4684,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Grip a secured bar and brace so your body stays straight from shoulders to heels.",
+        "Pull your chest toward the bar, then lower until your arms are long."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4437,7 +4727,10 @@
       "difficulty": "intermediate",
       "familyId": "bar-dip",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Support yourself on straight arms and bend your elbows to lower between the bars.",
+        "Press the bars down to return, keeping your feet quiet."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4477,7 +4770,10 @@
       "difficulty": "intermediate",
       "familyId": "ring-dip",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start above the rings on straight arms with the rings close to your sides.",
+        "Lower between the rings under control, then press back to a steady support."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4521,7 +4817,10 @@
       "difficulty": "advanced",
       "familyId": "vertical-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Pull high enough to bring your chest over the bar.",
+        "Turn both elbows over together, then press to straight arms above the bar."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4565,7 +4864,10 @@
       "difficulty": "advanced",
       "familyId": "vertical-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Pull the rings close to your chest, then bring your shoulders over your hands.",
+        "Keep the rings close through the transition and press to a steady support."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4606,7 +4908,10 @@
       "difficulty": "intermediate",
       "familyId": "vertical-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Draw your knees up, then clamp the rope securely between your feet.",
+        "Stand on the foot lock before reaching higher, and release it gradually to descend."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4646,7 +4951,10 @@
       "difficulty": "advanced",
       "familyId": "vertical-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Pull yourself up hand over hand with your feet clear of the rope.",
+        "Leave enough grip to lower hand over hand. Use a foot lock on the way down if needed."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4688,7 +4996,10 @@
       "difficulty": "intermediate",
       "familyId": "toes-to-bar",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hang with a secure grip and press the bar down as you lift your legs.",
+        "Bring both feet to the bar together, then guide them down for the next rep."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4727,7 +5038,10 @@
       "difficulty": "intermediate",
       "familyId": "hanging-knee-raise",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Settle into a still hang before bending your knees.",
+        "Curl your pelvis toward your ribs as you lift, then lower without swinging."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4766,7 +5080,10 @@
       "difficulty": "beginner",
       "familyId": "sit-up",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep your hips on the floor as you bring your shoulders toward your knees.",
+        "Return under control until your shoulder blades meet the floor."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4806,7 +5123,10 @@
       "difficulty": "intermediate",
       "familyId": "ghd-sit-up",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Secure your feet and start with a short backward reach you can control.",
+        "Extend your knees as you sit up and bring your torso back over your hips."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4846,7 +5166,10 @@
       "difficulty": "intermediate",
       "familyId": "ghd-back-extension",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Set the pad to support your pelvis. Keep your hips still as your back moves.",
+        "Round your spine to lower, then straighten it gradually until your trunk is in line."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4886,7 +5209,10 @@
       "difficulty": "intermediate",
       "familyId": "ghd-hip-extension",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Set the pad beneath your upper thighs so your hips can bend freely.",
+        "Keep your back still and hinge at the hips, finishing in line with your legs."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4927,7 +5253,10 @@
       "difficulty": "beginner",
       "familyId": "plank",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Set your elbows beneath your shoulders and lift your hips in line with your heels.",
+        "Keep breathing while holding your ribs and pelvis steady."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -4966,7 +5295,10 @@
       "difficulty": "beginner",
       "familyId": "side-plank",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Place your elbow under your shoulder and lift the underside of your waist.",
+        "Keep your chest facing forward and your hips stacked as you breathe."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5007,7 +5339,10 @@
       "difficulty": "intermediate",
       "familyId": "hollow-hold",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Press your lower back into the floor and lift your shoulder blades.",
+        "Reach your legs away only as far as you can maintain that contact."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5050,7 +5385,10 @@
       "difficulty": "intermediate",
       "familyId": "arch-hold",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Lie face down and reach your hands and feet away from each other.",
+        "Lift your chest and thighs slightly while keeping your gaze on the floor."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5091,7 +5429,10 @@
       "difficulty": "intermediate",
       "familyId": "ab-wheel-rollout",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start on your knees with the wheel beneath your shoulders.",
+        "Roll only as far as you can return without your lower back sagging."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5127,7 +5468,10 @@
       "difficulty": "intermediate",
       "familyId": "burpee",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Plant your hands and step or jump back to lower your chest to the floor.",
+        "Bring your feet back under you, then stand and jump to finish."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5169,7 +5513,10 @@
       "difficulty": "intermediate",
       "familyId": "box-jump",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Swing your arms and jump from both feet toward the middle of the box.",
+        "Land with both feet fully supported, steady yourself, then step down."
+      ],
       "relationships": [
         {
           "type": "variation",
@@ -5218,7 +5565,10 @@
       "difficulty": "intermediate",
       "familyId": "broad-jump",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Swing your arms behind you, then drive forward off both feet.",
+        "Bend your hips and knees on landing and hold your balance before resetting."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5256,7 +5606,10 @@
       "difficulty": "intermediate",
       "familyId": "standing-calf-raise",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hold the dumbbells steady and rise onto the balls of your feet.",
+        "Pause at the top without rolling your ankles outward, then lower your heels slowly."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5297,7 +5650,10 @@
       "difficulty": "beginner",
       "familyId": "band-face-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Anchor the band near face height and pull its ends apart toward your temples.",
+        "Keep your ribs over your hips as your elbows travel back."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5334,7 +5690,10 @@
       "difficulty": "beginner",
       "familyId": "band-external-rotation",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep the elbow gently pinned to your side.",
+        "Rotate without letting the shoulder roll forward."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5372,7 +5731,10 @@
       "difficulty": "beginner",
       "familyId": "band-internal-rotation",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Stand with your working elbow beside your ribs and the anchor on that side.",
+        "Keep the elbow bent and turn your forearm toward your belly."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5410,7 +5772,10 @@
       "difficulty": "beginner",
       "familyId": "band-pull-apart",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hold the band in front of your chest with a slight bend in your elbows.",
+        "Spread your hands apart without changing the elbow bend or leaning back."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5450,7 +5815,10 @@
       "difficulty": "beginner",
       "familyId": "vertical-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hang with straight elbows and let your shoulders rise comfortably.",
+        "Draw your shoulders away from your ears to lift your body slightly, then release slowly."
+      ],
       "relationships": [
         {
           "type": "regression",
@@ -5493,7 +5861,10 @@
       "difficulty": "beginner",
       "familyId": "wall-slide",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Face the wall with your forearms resting against it and your ribs over your hips.",
+        "Slide your forearms upward as your shoulder blades turn, keeping your lower back still."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5530,7 +5901,10 @@
       "difficulty": "beginner",
       "familyId": "serratus-punch",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "With the band pulling from behind, reach forward with a nearly straight elbow.",
+        "Let the shoulder blade glide around your ribs, then return without turning your trunk."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5570,7 +5944,10 @@
       "difficulty": "beginner",
       "familyId": "prone-ytw",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Lie face down on the bench with your neck in line with your back.",
+        "Lift your arms in a Y, then a T, then with elbows bent in a W. Keep each lift small."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5609,7 +5986,10 @@
       "difficulty": "beginner",
       "familyId": "single-leg-squat",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Stand on a low step. Bend your working knee and let that heel rise as the opposite heel taps down.",
+        "Push through the working leg to stand, settling its heel back onto the step."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5646,7 +6026,10 @@
       "difficulty": "beginner",
       "familyId": "tibialis-raise",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Lean your back against a wall and plant both heels slightly out in front.",
+        "Lift your forefeet toward your shins, then lower them slowly with your heels planted."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5683,7 +6066,10 @@
       "difficulty": "beginner",
       "familyId": "band-terminal-knee-extension",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Anchor the band at knee height and place it behind your slightly bent knee.",
+        "Plant your heel and tighten your thigh to straighten the knee against the band."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5723,7 +6109,10 @@
       "difficulty": "intermediate",
       "familyId": "nordic-hamstring-curl",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Pad your knees and have a partner or secure anchor hold your ankles down.",
+        "Keep hips in line with shoulders and knees as you lower, using your hands to catch."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5766,7 +6155,10 @@
       "difficulty": "intermediate",
       "familyId": "ghd-glute-ham-raise",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Secure your feet and start with a straight line from shoulders to knees.",
+        "Lower by straightening your knees, then pull through your heels to rise."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5803,7 +6195,10 @@
       "difficulty": "intermediate",
       "familyId": "band-hamstring-curl",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Secure the band low beyond your feet and loop it around the working ankle.",
+        "Lie face down and draw that heel toward your seat while your hips stay on the floor."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5843,7 +6238,10 @@
       "difficulty": "intermediate",
       "familyId": "copenhagen-plank",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Place your top leg on a stable bench and your elbow beneath your shoulder.",
+        "Press the supported leg down to lift your hips and keep your pelvis facing forward."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5887,7 +6285,10 @@
       "difficulty": "intermediate",
       "familyId": "elevated-jefferson-curl",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start unloaded on a stable platform and slowly curl forward from the head down.",
+        "Stay in a comfortable range and uncurl slowly, bringing your head up last."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5925,7 +6326,10 @@
       "difficulty": "beginner",
       "familyId": "dead-bug",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Lie on your back with arms up and hips and knees bent.",
+        "Reach the opposite arm and leg away only as far as your lower back stays still."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -5965,7 +6369,10 @@
       "difficulty": "beginner",
       "familyId": "bird-dog",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start on hands and knees with your back still.",
+        "Reach the opposite hand and heel away from each other without turning your hips."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6008,7 +6415,10 @@
       "difficulty": "intermediate",
       "familyId": "pallof-press",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Stand side-on to the anchor with the handle or band at your chest.",
+        "Press straight out and draw back in while your chest and hips keep facing forward."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6056,7 +6466,10 @@
       "difficulty": "intermediate",
       "familyId": "carry",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Stand tall with a weight in each hand and both arms long.",
+        "Take even steps and keep the weights from swinging against your legs."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6101,7 +6514,10 @@
       "difficulty": "intermediate",
       "familyId": "carry",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hold the weight at one side and stand with both shoulders level.",
+        "Walk in even steps, keeping your torso upright as the weight tries to tip you."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6150,7 +6566,10 @@
       "difficulty": "intermediate",
       "familyId": "carry",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Set the load close to your shoulders in the front rack before walking.",
+        "Take even steps and keep the load at the same height as you breathe."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6202,7 +6621,10 @@
       "difficulty": "intermediate",
       "familyId": "carry",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Steady the weight above your shoulder line before taking the first step.",
+        "Walk with short steps, keeping the load above you and the ribs over the pelvis."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6248,7 +6670,10 @@
       "difficulty": "intermediate",
       "familyId": "sled",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Lean into the handles with straight, braced arms before you step.",
+        "Drive the ground back with short steps and keep the sled moving smoothly."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6292,7 +6717,10 @@
       "difficulty": "intermediate",
       "familyId": "sled",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Face the sled and take up the slack before your first step.",
+        "Walk backward in short steps and keep tension on the straps."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6338,7 +6766,10 @@
       "difficulty": "intermediate",
       "familyId": "sled",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Face the sled, brace and take the slack out of the rope.",
+        "Pull hand over hand and lay the loose rope clear of your feet."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6383,7 +6814,10 @@
       "difficulty": "intermediate",
       "familyId": "carry",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Draw the bag firmly against your chest with both arms before walking.",
+        "Take short, steady steps and keep the bag close as you breathe."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6428,7 +6862,10 @@
       "difficulty": "intermediate",
       "familyId": "carry",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Center the crossbar on your upper back, brace and stand to lift both ends clear.",
+        "Start with short steps and keep the frame from swaying side to side."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6472,7 +6909,10 @@
       "difficulty": "intermediate",
       "familyId": "horizontal-pull",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Drive with the legs, swing the torso back slightly, then pull toward your lower ribs.",
+        "Send the hands away and tip forward before bending your knees on the return."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6514,7 +6954,10 @@
       "difficulty": "intermediate",
       "familyId": "assault-bike",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Set the seat so your knee stays slightly bent at the bottom of the stroke.",
+        "Push one handle as you pull the other and keep the pedals turning smoothly."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6558,7 +7001,10 @@
       "difficulty": "intermediate",
       "familyId": "ski-erg",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Start tall with the handles high, then hinge and bend your knees slightly as you pull.",
+        "Finish with your hands beside your thighs and stand tall as the handles rise."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6599,7 +7045,10 @@
       "difficulty": "intermediate",
       "familyId": "single-under",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Keep your elbows near your ribs and turn the rope with your wrists.",
+        "Make one small jump per turn and land softly in the same spot."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6641,7 +7090,10 @@
       "difficulty": "intermediate",
       "familyId": "double-under",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Jump straight up with your hands close to your sides.",
+        "Turn the rope twice from your wrists during each jump."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6686,7 +7138,10 @@
       "difficulty": "intermediate",
       "familyId": "wall-ball-shot",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hold the ball at your chest and squat with your feet planted.",
+        "Drive up to throw at the target and catch the ball close before the next squat."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6730,7 +7185,10 @@
       "difficulty": "intermediate",
       "familyId": "medicine-ball-slam",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Lift the ball overhead, then drive it into the floor in front of your feet.",
+        "Let the rebound settle before hinging down to retrieve the ball."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6772,7 +7230,10 @@
       "difficulty": "intermediate",
       "familyId": "battle-rope-wave",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Stand with soft knees and a little slack in the ropes.",
+        "Send even waves toward the anchor, alternating hands or moving them together as prescribed."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6813,7 +7274,10 @@
       "difficulty": "beginner",
       "familyId": "run",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Look ahead and let your shoulders and hands relax.",
+        "Let your arms swing front to back and take relaxed, even strides."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6854,7 +7318,10 @@
       "difficulty": "beginner",
       "familyId": "walk",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Stand tall with your gaze ahead and shoulders relaxed.",
+        "Let your arms swing freely and take comfortable, even steps."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -6895,7 +7362,10 @@
       "difficulty": "intermediate",
       "familyId": "bear-crawl",
       "instructions": [],
-      "coachingCues": [],
+      "coachingCues": [
+        "Hover your knees just off the floor with your hands under your shoulders.",
+        "Move opposite hand and foot together in short steps, keeping your hips level."
+      ],
       "relationships": [],
       "status": "active"
     },
@@ -7117,8 +7587,8 @@
         "Pull the chest toward the bar, then lower to full arm extension."
       ],
       "coachingCues": [
-        "Start by drawing the shoulder blades down.",
-        "Use the least assistance that keeps every rep controlled."
+        "Choose assistance that lets you start from straight arms and a steady body.",
+        "Draw your elbows down to lift your chest toward the bar, then lower smoothly."
       ],
       "relationships": [
         {
@@ -7175,8 +7645,8 @@
         "Lower to straight arms over a controlled count before resetting."
       ],
       "coachingCues": [
-        "Own the full descent.",
-        "Stop the set when lowering speed cannot be controlled."
+        "Use a step to start with your chin above the bar.",
+        "Lower to straight arms over the prescribed count, then use the step to reset."
       ],
       "relationships": [
         {
@@ -7682,8 +8152,8 @@
         "Dip and drive it to a stable overhead lockout before returning under control."
       ],
       "coachingCues": [
-        "Receive the clean softly at the shoulder.",
-        "Use the legs before pressing with the arm."
+        "Receive the dumbbell softly at your shoulder before the dip.",
+        "Drive with your legs, then bend your knees again to catch on a straight arm before standing."
       ],
       "relationships": [
         {
@@ -7798,8 +8268,8 @@
         "Shift weight from hand to hand and take small steps while maintaining a stacked position."
       ],
       "coachingCues": [
-        "Look between the hands.",
-        "Move from controlled weight shifts, not a falling chase."
+        "Look between your hands and push tall through your shoulders.",
+        "Shift your weight onto one hand before taking a short step with the other."
       ],
       "relationships": [
         {
@@ -7855,8 +8325,8 @@
         "Travel over the box and step or jump down on the opposite side as prescribed."
       ],
       "coachingCues": [
-        "Land with the whole foot on the box.",
-        "Use a repeatable height when fatigue rises."
+        "Land with both feet supported on top of the box.",
+        "Find your footing on the far side before starting the next jump."
       ],
       "relationships": [
         {
@@ -7912,8 +8382,8 @@
         "Jump onto and travel over the box before beginning the next repetition."
       ],
       "coachingCues": [
-        "Use a consistent approach to the box.",
-        "Step down when jumping down would compromise control."
+        "Finish the burpee and bring your feet under you before jumping.",
+        "Land with both feet supported on the box, then descend on the opposite side."
       ],
       "relationships": [
         {
@@ -8029,8 +8499,8 @@
         "Lower according to the prescribed tempo, touch consistently, and press normally unless instructed otherwise."
       ],
       "coachingCues": [
-        "Count the tempo evenly.",
-        "Keep the bar path consistent as speed slows."
+        "Count the prescribed lowering phase evenly until the bar touches your chest.",
+        "Keep your upper back set as you reverse and press along the same path."
       ],
       "relationships": [
         {
@@ -8092,8 +8562,8 @@
         "Pull until the chin clears the bar, then lower to straight arms under control."
       ],
       "coachingCues": [
-        "Keep the added load quiet.",
-        "Use the same start and finish standard every set."
+        "Secure the load and take an underhand grip with your arms straight.",
+        "Pull until your chin clears the bar, then lower without letting the load swing."
       ],
       "relationships": [
         {
@@ -8152,8 +8622,8 @@
         "Pull the attachment toward the upper chest, then return to full arm extension under control."
       ],
       "coachingCues": [
-        "Drive elbows down rather than leaning back.",
-        "Keep the neck relaxed."
+        "Secure your thighs under the pad and pull your elbows down toward your sides.",
+        "Bring the handle toward your upper chest while keeping your torso angle steady."
       ],
       "relationships": [
         {
@@ -8262,8 +8732,8 @@
         "Lower the platform under control and press through the feet without locking the knees aggressively."
       ],
       "coachingCues": [
-        "Keep knees tracking with toes.",
-        "Use the same depth and machine setup each session."
+        "Keep your knees pointing in the same direction as your toes.",
+        "Lower the sled only as far as your pelvis stays supported, then push through both feet."
       ],
       "relationships": [
         {
@@ -8315,8 +8785,8 @@
         "Curl through the available range, pause, and return the weight under control."
       ],
       "coachingCues": [
-        "Keep the hips stable.",
-        "Do not let the weight stack drop between reps."
+        "Line up your knee with the machine pivot and keep your hips against the support.",
+        "Bend your knees against the pad, then let your legs straighten under control."
       ],
       "relationships": [
         {
@@ -8364,8 +8834,8 @@
         "Extend the knees smoothly, pause near the top, and lower under control."
       ],
       "coachingCues": [
-        "Keep the hips against the seat.",
-        "Use a pain-free range without swinging."
+        "Line up the machine pivot with your knee and set the pad just above your ankle.",
+        "Straighten your knees smoothly and lower the pad without lifting your hips."
       ],
       "relationships": [
         {
@@ -8419,8 +8889,8 @@
         "Extend the elbows fully, then return until the forearms rise without moving the upper arms."
       ],
       "coachingCues": [
-        "Keep shoulders quiet.",
-        "Finish by straightening the elbows, not leaning over the handle."
+        "Keep your elbows beside your ribs as you straighten your arms.",
+        "Let the handle rise under control while your upper arms stay still."
       ],
       "relationships": [
         {
@@ -8428,6 +8898,103 @@
           "movementId": "dumbbell-triceps-extension"
         }
       ],
+      "status": "active"
+    },
+    {
+      "id": "band-90-90-external-rotation-to-press",
+      "name": "Band 90/90 External Rotation to Press",
+      "category": "rehab",
+      "equipmentOptions": [
+        [
+          "resistance-band"
+        ]
+      ],
+      "movementPatterns": [
+        "external-rotation",
+        "vertical-push"
+      ],
+      "primaryMuscles": [
+        "rotator-cuff"
+      ],
+      "secondaryMuscles": [
+        "rear-delts",
+        "front-delts",
+        "triceps"
+      ],
+      "aliases": [
+        "Banded 90/90 Rotation-to-Overhead Press"
+      ],
+      "reporting": {
+        "primaryField": "reps",
+        "requiredFields": [
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "totalReps"
+      },
+      "unilateral": true,
+      "difficulty": "intermediate",
+      "familyId": "band-external-rotation",
+      "instructions": [
+        "Anchor a light band securely to a pole in front of you. Work one arm at a time.",
+        "Set the shoulder comfortably without pinning the shoulder blade. Bring the upper arm to a comfortable height near shoulder level and bend the elbow to roughly 90 degrees.",
+        "Rotate the forearm upward under control, then press overhead while allowing the shoulder blade to rotate upward naturally.",
+        "Lower to the 90/90 position and slowly reverse the rotation. One rotation, press and controlled return is one rep.",
+        "Use a pain-free range on each side. Reduce resistance or range if you shrug or arch your lower back; use isolated external rotation if this combination is not comfortable."
+      ],
+      "coachingCues": [
+        "Start with a light band and your elbow bent near shoulder height. Rotate your forearm up.",
+        "Press in a pain-free range, letting the shoulder blade turn upward. Reverse slowly."
+      ],
+      "relationships": [],
+      "status": "active"
+    },
+    {
+      "id": "half-kneeling-single-arm-dumbbell-press",
+      "name": "Half-Kneeling Single-Arm Dumbbell Press",
+      "category": "accessory",
+      "equipmentOptions": [
+        [
+          "dumbbell"
+        ]
+      ],
+      "movementPatterns": [
+        "vertical-push"
+      ],
+      "primaryMuscles": [
+        "shoulders",
+        "triceps"
+      ],
+      "secondaryMuscles": [
+        "trunk",
+        "upper-chest"
+      ],
+      "aliases": [
+        "Half-Kneeling DB Press",
+        "Half-Kneeling Single-Arm DB Press"
+      ],
+      "reporting": {
+        "primaryField": "load",
+        "requiredFields": [
+          "load",
+          "reps"
+        ],
+        "optionalFields": [
+          "rpe"
+        ],
+        "progressMetric": "bestLoad"
+      },
+      "unilateral": true,
+      "difficulty": "beginner",
+      "familyId": "vertical-press",
+      "instructions": [],
+      "coachingCues": [
+        "Set one knee down and plant the other foot, keeping your hips level.",
+        "Press the dumbbell over your shoulder without tipping sideways or leaning back."
+      ],
+      "relationships": [],
       "status": "active"
     }
   ]
